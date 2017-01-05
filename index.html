@@ -4,6 +4,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<style type="text/css">
 		body {
 			padding-top: 80px;
@@ -18,6 +19,19 @@
 			;
 		}
 	</style>
+	<script type="text/javascript">
+		$(function(){
+		    $('a[href^=#]').click(function(){	
+		        var speed = 500;
+		        var href= $(this).attr("href");
+		        var target = $(href == "#" || href == "" ? 'html' : href);
+		        var position = target.offset().top-100;
+		        $("html, body").animate({scrollTop:position}, speed, "swing");
+		        return false;
+	    	});
+		});
+</script>
+
 	<!--&#91;if lt IE 9&#93;>
 		<script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -26,28 +40,15 @@
 <body>
 	<header>
 		<div class="navbar navbar-default navbar-fixed-top">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="navbar-header">
-					<a href="/" class="navbar-brand">Haruki Takahashi</a>
-					<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
+					<a href="#profile" class="navbar-brand">Haruki Takahashi</a>
 				</div>
 				<div class="navbar-collapse collapse" id="navbar-main">
-					<ul class="nav navbar-nav">
-						<li class="active dropdown">
-							<!--&#91;if lt IE 9&#93;>
-							<a href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contents <span class="caret"></span></a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="index.html">Products</a></li>
-								<li><a href="library.html">Libraries</a></li>
-							</ul>
-						</li>
-
-						<li><a href="profile.html">Profile</a></li>
-							<!&#91;if lt IE 9&#93;-->
+						<ul class="nav navbar-nav">
+						<li><a href="#news">News</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#publications">Publications</a></li>
 					</ul>
 				</div>
 			</div>
@@ -58,7 +59,7 @@
 
 	<div class="container">
 		<div>
-			<h1>Profile</h1>
+			<h1 id="profile"></h1>
 		</div>
 		<div class="row">
 			<div class="col-sm-4">
@@ -67,10 +68,10 @@
 			<div class="col-sm-8">
 				<h2>高橋 治輝 / Haruki TAKAHASHI</h2>
 				<ul style="list-style-type:none;">
-					<li><i class="glyphicon glyphicon glyphicon-user"></i>　博士課程 2年 / 2nd-year Ph.D. Student</li>
-					<li>　明治大学大学院 / <a href="http://www.meiji.ac.jp/cip/english/" target="_blank">Meiji University</a></li>
-					<li>　宮下研究室 / <a href="http://miyashita.com/" target="_blank">Miyashita Lab.</a></li>
-					<li><i class="glyphicon glyphicon-envelope"></i>　haruki(at)meiji.ac.jp</li>
+					<li><i class="glyphicon glyphicon glyphicon-user"></i>博士課程 2年 / 2nd-year Ph.D. Student</li>
+					<li>　 明治大学大学院 / <a href="http://www.meiji.ac.jp/cip/english/" target="_blank">Meiji University</a></li>
+					<li>　 宮下研究室 / <a href="http://miyashita.com/" target="_blank">Miyashita Lab.</a></li>
+					<li><i class="glyphicon glyphicon-envelope"></i>haruki(at)meiji.ac.jp</li>
 				</ul>
 				<ul style="list-style-type:none;">
 					<li>Haruki Takahashi is a Ph.D. student at Meiji University, a member of <a href="http://miyashita.com/">Miyashita Laboratory</a>, and an assistant at Department of Computer Science, Meiji University (from 2015). He received a bachelor's degree and master's degrees with a major in Engineering from Meiji University in 2013 and 2015, respectively.<br>
@@ -82,56 +83,54 @@
 		<!-- news> ======================================================== <!-->
 
 		<div>
-			<h2>News</h2>
-			<font size="4px">
+			<h2 id="news">News</h2>
 				<table class="table table-hover table-condensed">
 					    <tr><tr class="" style="display: table-row;">
-					    	<td>2017/01/XX</td>
+					    	<td>2017/01/XX</td><td></td>
                         	<td>
                         		Happy New Year!
                         	</td>
                         </tr>
-                        	<td>2016/12/31</td>
+                        	<td>2016/12/31</td><td>JP</td>
                         	<td>
                         		Our paper was published in <a href="http://www.art-science.org/journal/v15n5/" target="_blank">The Journal of the Society for Art and Science</a>.
                         	</td>
                         </tr>
 					    <tr><tr class="" style="display: table-row;">
-                        	<td>2016/12/XX</td>
+                        	<td>2016/12/XX</td><td></td>
                         	<td>
                         		Our paper was conditionally accepted at <a href="https://chi2017.acm.org/" target="_blank">CHI2017</a>.
                         	</td>
                         </tr>
                         <tr><tr class="" style="display: table-row;">
-                        	<td>2016/12/14-16</td>
+                        	<td>2016/12/14-16</td><td>JP</td>
                         	<td>
-                        		I had attended <a href="https://www.wiss.org/WISS2016/" target="_blank">WISS 2016</a> (JP) and presented our work.
+                        		I had attended <a href="https://www.wiss.org/WISS2016/" target="_blank">WISS 2016</a> and presented our work.
                         	</td>
                         </tr>
                         <tr><tr class="" style="display: table-row;">
-                        	<td>2016/10/24</td>
+                        	<td>2016/10/24</td><td>JP</td>
                         	<td>
                         		Our work was broadcast on TV (<a href="http://www.tv-tokyo.co.jp/mv/wbs/trend_tamago/post_120311/" target="_blank">Trend Tamago</a> in WBS).
                         	</td>
                         </tr>
                         <tr><tr class="" style="display: table-row;">
-                        	<td>2016/10/16-19</td>
+                        	<td>2016/10/16-19</td><td></td>
                         	<td>
                         		I had attended <a href="https://uist.acm.org/uist2016/" target="_blank">UIST2016</a> and prensented our work (Demo).
                         	</td>
                         </tr>
                         <tr><tr class="" style="display: table-row;">
-                        	<td>2016/10/XX</td>
+                        	<td>2016/10/XX</td><td></td>
                         	<td>
                         		This web site was born in the Internet ocean.
                         	</td>
                         </tr>
                     </table>
-                </font>
 		</div>
 		<br>
 		<div>
-			<h2>Projects</h2>
+			<h2 id="projects">Projects</h2>
 		</div>
 
 		<div class="row">
@@ -192,7 +191,7 @@
 		</div>
 		<br>
 		<div>
-			<h2>Publications</h2>
+			<h2 id="publications">Publications</h2>
 				<h3>International Conference (Oral)</h3>
 				<ol>
 					<li><u>Haruki Takahashi</u> and Homei Miyashita. "An Interactive Fabrication System that Allows Users to Edit a 3D Model during 3D Printing". International Conference on Digital Fabrication 2016 (ICDF 2016).	</li>

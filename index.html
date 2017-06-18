@@ -20,7 +20,33 @@
 		color: rgb(33, 125, 187);
 		;
 	}
+	.hide_area{
+		display: none;
+
+
+	}
 	</style>
+
+
+	<script>
+	var flg = "close";
+
+		$(function(){
+			$('#check').click(function(){
+					$('.hide_area').toggle('fast');
+					if(flg == "close"){
+						$('#check').text("Close");
+						flg = "open";
+					}
+					else{
+						$('#check').text("Show all");
+						flg = "close";
+					}
+				});
+		});
+	</script>
+
+
 	<script type="text/javascript">
 	$(function(){
 		$('a[href^=#]').click(function(){
@@ -85,8 +111,7 @@
 		</div>
 		<br>
 		<!-- news ======================================================== <!-->
-		<div>
-			<h2 id="news">News</h2>
+		<h2 id="news">News</h2>
 			<table class="table table-hover table-condensed">
 				<tr class="" style="display: table-row;">
 					<td>2017/05</td><td></td>
@@ -120,44 +145,51 @@
 						Happy New Year!
 					</td>
 				</tr>
-				<tr><tr class="" style="display: table-row;">
+				<tr class="hide_area">
 					<td>2016/12</td><td>JP</td>
 					<td>
 						Our paper was published in <a href="http://www.art-science.org/journal/v15n5/" target="_blank">The Journal of the Society for Art and Science</a>.
 					</td>
 				</tr>
-				<tr><tr class="" style="display: table-row;">
+				<tr class="hide_area">
 					<td>2016/12</td><td></td>
 					<td>
 						Our paper was conditionally accepted at <a href="https://chi2017.acm.org/" target="_blank">CHI2017</a>.
 					</td>
 				</tr>
-				<tr><tr class="" style="display: table-row;">
+				<tr class="hide_area">
 					<td>2016/12</td><td>JP</td>
 					<td>
 						I had attended <a href="https://www.wiss.org/WISS2016/" target="_blank">WISS 2016</a> and presented our work.
 					</td>
 				</tr>
-				<tr><tr class="" style="display: table-row;">
+				<tr class="hide_area">
 					<td>2016/10</td><td>JP</td>
 					<td>
 						Our work was broadcast on TV (<a href="http://www.tv-tokyo.co.jp/mv/wbs/trend_tamago/post_120311/" target="_blank">Trend Tamago</a> in WBS).
 					</td>
 				</tr>
-				<tr><tr class="" style="display: table-row;">
+				<tr class="hide_area">
 					<td>2016/10</td><td></td>
 					<td>
 						I had attended <a href="https://uist.acm.org/uist2016/" target="_blank">UIST2016</a> and prensented our work (Demo).
 					</td>
 				</tr>
-				<tr><tr class="" style="display: table-row;">
+				<tr class="hide_area">
 					<td>2016/10</td><td></td>
 					<td>
 						This web site was born in the Internet ocean.
 					</td>
 				</tr>
 			</table>
-		</div>
+			<div class="row">
+				<div class="col-md-2 col-md-offset-5">
+					<a id="check" class="pull-right">Show all</a>
+				</div>
+			</div>
+
+
+
 		<br>
 
 		<div>

@@ -9,55 +9,55 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
 	<style type="text/css">
-	body {
-		padding-top: 80px;
-	}
+		body {
+			padding-top: 80px;
+		}
 
-	.img-responsive-overwrite {
-		margin: 0 auto;
-	}
+		.img-responsive-overwrite {
+			margin: 0 auto;
+		}
 
-	.panelHeader {
-		color: rgb(33, 125, 187);
-		;
-	}
-	.hide_area{
-		display: none;
+		.panelHeader {
+			color: rgb(33, 125, 187);
+			;
+		}
+		.hide_area{
+			display: none;
 
 
-	}
+		}
 	</style>
 
 	<script>
-	var flg = "close";
+		var flg = "close";
 
-		$(function(){
-			$('#check').click(function(){
-					$('.hide_area').toggle('fast');
-					if(flg == "close"){
-						$('#check').text("Close");
-						flg = "open";
-					}
-					else{
-						$('#check').text("Show all");
-						flg = "close";
-					}
-				});
-		});
+			$(function(){
+				$('#check').click(function(){
+						$('.hide_area').toggle('fast');
+						if(flg == "close"){
+							$('#check').text("Close");
+							flg = "open";
+						}
+						else{
+							$('#check').text("Show all");
+							flg = "close";
+						}
+					});
+			});
 	</script>
-
 	<script type="text/javascript">
-	$(function(){
-		$('a[href^=#]').click(function(){
-			var speed = 500;
-			var href= $(this).attr("href");
-			var target = $(href == "#" || href == "" ? 'html' : href);
-			var position = target.offset().top-100;
-			$("html, body").animate({scrollTop:position}, speed, "swing");
-			return false;
+		$(function(){
+			$('a[href^=#]').click(function(){
+				var speed = 500;
+				var href= $(this).attr("href");
+				var target = $(href == "#" || href == "" ? 'html' : href);
+				var position = target.offset().top-100;
+				$("html, body").animate({scrollTop:position}, speed, "swing");
+				return false;
+			});
 		});
-	});
 	</script>
 
 	<!--&#91;if lt IE 9&#93;>
@@ -117,7 +117,16 @@ His general research interests include human-computer interaction and digital fa
 		<h2 id="news">News</h2>
 			<table class="table table-hover table-condensed">
 				<tr class="" style="display: table-row;">
-					<td>2018/09</td><td>JP</td><td><a href ="https://www.wiss.org/WISS2018/" target="_blank">WISS2018</a>に参加します．</td>
+					<td>2019/01</td><td></td><td>I collaborated with designers at Nissan Motor Co., Ltd. and <a href="https://www.digitalartisan.co.jp/" target="_blank">Digital Artisan</a> to create an artwork: 1kg dandelion cotton (<a href="https://prtimes.jp/main/html/rd/p/000000001.000040823.html?fbclid=IwAR0W7o-7_8wZ9vtpZL9zyDy3GqZuOwB27SRQxmSQWMVxi28o1helGSPfL7c" target="_blank">Press release in JP</a>). </td>
+				</tr>
+				<tr class="" style="display: table-row;">
+					<td>2019/01</td><td></td><td>Happy New Year!</td>
+				</tr>
+				<tr class="" style="display: table-row;">
+					<td>2018/12</td><td></td>
+					<td>
+						Our paper was conditionally accepted at <a href="https://chi2019ss.acm.org/" target="_blank">CHI2019</a>.
+					</td>
 				</tr>
 				<tr class="" style="display: table-row;">
 					<td>2018/06</td><td></td><td> Jeeeun Kim presented our work <a href ="https://dl.acm.org/citation.cfm?id=3213518">Compositional 3D Printing</a> at <a href="https://scf.acm.org/2018">SCF2018</a></td>
@@ -237,6 +246,8 @@ His general research interests include human-computer interaction and digital fa
 			<h2 id="projects">Projects</h2>
 		</div>
 
+
+
 		<!-- CHI 2017 PAPER -->
 		<div class="row">
 			<div class="col-sm-12">
@@ -261,9 +272,7 @@ His general research interests include human-computer interaction and digital fa
 						<a href="efdm_gallery.html" target="_blank"><i class="glyphicon glyphicon glyphicon-picture"></i> Gallery<br></a>
 					</li>
 				</ul>
-				<b>
-Haruki Takahashi and Homei Miyashita. Expressive Fused Deposition Modeling by Controlling Extruder Height and Extrusion Amount. In Proceedings of CHI 2017, pp.5065-5074, 2017.					</b>
-</b>
+				<b>Haruki Takahashi and Homei Miyashita. Expressive Fused Deposition Modeling by Controlling Extruder Height and Extrusion Amount. In Proceedings of CHI 2017, pp.5065-5074, 2017.					</b>
 			</div>
 		</div>
 
@@ -300,6 +309,7 @@ Haruki Takahashi and Homei Miyashita. Expressive Fused Deposition Modeling by Co
 			<h2 id="publications">Publications</h2>
 			<h3>International Conference (Oral)</h3>
 			<ol>
+
 				<li>Jeeeun Kim, Clement Zheng, <u>Haruki Takahashi</u>, Mark D Gross, Daniel Ashbrook and Tom Yeh. Expanding & Supporting Workflows Towards Compositional 3D Printing. In Proceedings of Acm Symposium On Computational Fabrication (SCF’18), 2018.</li>
 				<!--<a href="" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a></li>-->
 				<li><u>Haruki Takahashi</u> and Homei Miyashita. Expressive Fused Deposition Modeling by Controlling Extruder Height and Extrusion Amount. In Proceedings of CHI 2017, pp.5065-5074, 2017.
@@ -328,13 +338,9 @@ Haruki Takahashi and Homei Miyashita. Expressive Fused Deposition Modeling by Co
 			</ol>
 			<h3>国内会議</h3>
 			<ol>
-				<li>高橋 治輝. 3D Printer-assisted 3D Drawing: 3Dペンと3Dプリンタを組み合わせた創作環境の提案, 日本ソフトウェア科学会 WISS2018, 2018. (ロングティザー)</li>
-				<li>野崎 玲那, 高橋 治輝, 宮下 芳明. Felting Deposition Modeling: フェルティングニードルを用いた羊毛フェルト3Dプリンタ, 日本ソフトウェア科学会 WISS2018, 2018. </li>
-
-
-				<li>高橋 治輝，宮下 芳明． 熱溶解積層方式3Dプリンタを用いた表現と造形手法のデザインのためのパラメータ探索手法，インタラクション2018論文集，pp.135-144，2018．</li>
+				<li>高橋治輝，宮下芳明． 熱溶解積層方式3Dプリンタを用いた表現と造形手法のデザインのためのパラメータ探索手法，インタラクション2018論文集，pp.135-144，2018．</li>
 				<li>高橋 治輝, 宮下 芳明. ブリッジ構造と樹脂の引き伸ばしを用いた高密度な毛構造の造形手法. 日本ソフトウェア科学会 WISS2017, 2017.</li>
-				<li>高橋 治輝, 宮下 芳明. 造形高さと樹脂量の設定による熱溶解積層方式3Dプリンタの表現力拡張．日本ソフトウェア科学会 WISS2016, pp.193-198, 2018. (口頭発表)
+				<li>高橋 治輝, 宮下 芳明. 造形高さと樹脂量の設定による熱溶解積層方式3Dプリンタの表現力拡張．日本ソフトウェア科学会 WISS2016, pp.193-198.
 				<a href="https://research.miyashita.com/2016/D167/D167.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a></li>
 				<li>高橋 治輝, 宮下 芳明. 3Dプリンタの造形中もモデリング可能なインタラクティブ・ファブリケーション. 日本ソフトウェア科学会 WISS2015, pp.13-15，2015.
 					<a href="https://research.miyashita.com/2015/D157/D157.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a></li>
@@ -365,11 +371,11 @@ Haruki Takahashi and Homei Miyashita. Expressive Fused Deposition Modeling by Co
 			<li>2009年3月　茨城県立下妻第一高等学校 卒業</li>
 			<li>2009年4月　明治大学 理工学部 情報科学科 入学</li>
 			<li>2013年3月　明治大学 理工学部 情報科学科 卒業</li>
-			<li>2013年4月　明治大学大学院 理工学研究科 新領域創造専攻 博士前期課程 入学</li>
-			<li>2015年3月　明治大学大学院 理工学研究科 新領域創造専攻 博士前期課程 修了</li>
-			<li>2015年4月　明治大学大学院 理工学研究科 新領域創造専攻 博士後期課程 入学</li>
-			<li>2017年4月　明治大学大学院 先端数理科学研究科 先端メディアサイエンス専攻 博士後期課程 編入学</li>
-			<li>2018年3月　明治大学大学院 先端数理科学研究科 先端メディアサイエンス専攻 博士後期課程 修了 博士（工学）</li>
+			<li>2013年4月　明治大学大学院 理工学研究科 新領域創造専攻 博士前期課程　入学</li>
+			<li>2015年3月　明治大学大学院 理工学研究科 新領域創造専攻 博士前期課程　修了</li>
+			<li>2015年4月　明治大学大学院 理工学研究科 新領域創造専攻 博士後期課程　入学</li>
+			<li>2017年4月　明治大学大学院 先端数理科学研究科 先端メディアサイエンス専攻 博士後期課程　編入学</li>
+			<li>2018年3月　明治大学大学院 先端数理科学研究科 先端メディアサイエンス専攻 博士後期課程　修了，博士（工学）</li>
 			</ol>
 
 			<h3>職歴</h3>
@@ -382,9 +388,8 @@ Haruki Takahashi and Homei Miyashita. Expressive Fused Deposition Modeling by Co
 			<h3>教育</h3>
 			<ul>
 			<dl>
-			<li><dt>2018年度（明治大学FMS）</dt></li>
+			<li><dt>2018年度（FMS）</dt></li>
 			    <dd>情報技術概論，アルゴリズム基礎，プログラミング演習Ⅰ・Ⅱ</dd>
-			    <dd>サマーセミナー, 「3Dモデリング&3Dプリンタ講座」, 2018年8月6日．</dd>
 			</dl>
 		　</ul>
 

@@ -1,0 +1,18 @@
+Hello
+
+<canvas id="canvas"></canvas>
+
+<style>
+canvas.addEventListener('mousemove', function (evt) {
+ var mousePos = getMousePosition(canvas, evt);
+ var message = 'position X:' + mousePos.x + ', Y:' + mousePos.y;
+ PrintPosition(canvas, message);
+ evt.preventDefault();
+}, false);
+canvas.addEventListener('touchmove', function (evt) {
+ var touchPos = gettouchPosition(canvas, evt);
+ var message = 'position X:' + touchPos.x + ', Y:' + touchPos.y;
+ PrintPosition(canvas, message);
+ evt.preventDefault();
+}, false);
+</style>

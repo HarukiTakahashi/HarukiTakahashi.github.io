@@ -24,12 +24,12 @@ div {
 
 </div>
 <script type="text/javascript">
-element.requestFullscreen();
 
   const $div = document.querySelector('div');
 let $touch = null;
 const w = 100;
 
+$div.requestFullscreen();
 $div.addEventListener('touchstart', (e) => {
 	const { clientX, clientY } = e.touches[0];
   $touch = document.createElement('div');

@@ -1,18 +1,54 @@
-Hello
+<html>
+<head>
+<style type="text/css">
+html,
+body,
+div {
+  width: 100%;
+  height: 100%;
+}
 
-<canvas id="canvas"></canvas>
+body {
+  margin: 0;
+}
 
-<style>
-canvas.addEventListener('mousemove', function (evt) {
- var mousePos = getMousePosition(canvas, evt);
- var message = 'position X:' + mousePos.x + ', Y:' + mousePos.y;
- PrintPosition(canvas, message);
- evt.preventDefault();
-}, false);
-canvas.addEventListener('touchmove', function (evt) {
- var touchPos = gettouchPosition(canvas, evt);
- var message = 'position X:' + touchPos.x + ', Y:' + touchPos.y;
- PrintPosition(canvas, message);
- evt.preventDefault();
-}, false);
+div {
+  background-color: yellow;
+  position: relative;
+}
 </style>
+<script type="text/javascript">
+  const $div = document.querySelector('div');
+let $touch = null;
+const w = 10;
+
+$div.addEventListener('touchstart', (e) => {
+	const { clientX, clientY } = e.touches[0];
+  $touch = document.createElement('div');
+  $touch.style.position = 'absolute';
+  $touch.style.left = `${clientX - w/2}px`;
+  $touch.style.top = `${clientY - w/2}px`;
+  $touch.style.width = `${w}px`;
+  $touch.style.height = `${w}px`;
+  $touch.style.backgroundColor = 'red';
+  $touch.style.borderRadius = '50%';
+  $div.appendChild($touch);
+})
+
+$div.addEventListener('touchmove', (e) => {
+	const { clientX, clientY } = e.touches[0];
+  $touch.style.left = `${clientX - w/2}px`;
+  $touch.style.top = `${clientY - w/2}px`;
+});
+
+$div.addEventListener('touchend', () => {
+	$touch.remove();
+})
+</script>
+</head>
+<body>
+<div>
+
+</div>
+</body>
+</html>

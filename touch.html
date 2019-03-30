@@ -1,0 +1,61 @@
+<<<<<<< HEAD
+=======
+<html>
+<head>
+<style type="text/css">
+html,
+body,
+div {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+div {
+  background-color: yellow;
+  position: relative;
+}
+</style>
+
+</head>
+<body>
+<div>
+
+</div>
+<script type="text/javascript">
+document.documentElement.requestFullscreen();
+
+  const $div = document.querySelector('div');
+let $touch = null;
+const w = 200;
+
+$div.requestFullscreen();
+$div.addEventListener('touchstart', (e) => {
+	const { clientX, clientY } = e.touches[0];
+  $touch = document.createElement('div');
+  $touch.style.position = 'absolute';
+  $touch.style.left = `${clientX - w/2}px`;
+  $touch.style.top = `${clientY - w/2}px`;
+  $touch.style.width = `${w}px`;
+  $touch.style.height = `${w}px`;
+  $touch.style.backgroundColor = 'red';
+  $touch.style.borderRadius = '50%';
+  $div.appendChild($touch);
+})
+
+$div.addEventListener('touchmove', (e) => {
+	const { clientX, clientY } = e.touches[0];
+  $touch.style.left = `${clientX - w/2}px`;
+  $touch.style.top = `${clientY - w/2}px`;
+});
+
+$div.addEventListener('touchend', () => {
+	$touch.remove();
+})
+</script>
+</body>
+</html>
+>>>>>>> 1f091b9003760dacf22cc127e4d1a70e77ffa6b6

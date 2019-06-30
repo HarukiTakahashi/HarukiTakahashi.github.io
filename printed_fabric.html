@@ -1,0 +1,135 @@
+<html>
+<head>
+  <title>Haruki Takahashi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="google-site-verification" content="HFd6hUd_bJbHkI0bAemX-VUL9YKfbYc8IV8oMtWJeD4" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <style type="text/css">
+  body {
+    padding-top: 80px;
+  }
+
+  .img-responsive-overwrite {
+    margin: 0 auto;
+  }
+
+  .panelHeader {
+    color: rgb(33, 125, 187);
+    ;
+  }
+  .row-eq-height {
+  display: flex;
+  flex-wrap: wrap;
+}
+  </style>
+  <script type="text/javascript">
+  $(function(){
+    $('a[href^=#]').click(function(){
+      var speed = 500;
+      var href= $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      var position = target.offset().top-100;
+      $("html, body").animate({scrollTop:position}, speed, "swing");
+      return false;
+    });
+  });
+  </script>
+
+</head>
+<body>
+  <header>
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div style="padding-left: 30px;" class="navbar-header">
+          <a href="http://haruki.xyz/" class="navbar-brand">Haruki Takahashi</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- container> ======================================================== <!-->
+
+
+  <div class="container">
+    <div>
+      <h1 id="printed_fabric">3D Printed Fabric</h1>
+      <p>Techniques for Design and 3D Weaving Programmable Textiles</p>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h3>Abstract</h3>
+        We present a 3D printing technique for a soft and flexible textile fabrication using a consumer grade fused deposition
+modeling (FDM) printer. By controlling the movement of the print header, the FDM alternately weaves the stringing fibers
+across a row of pillars. Owing to the structure of the fibers, which support and strengthen the pillars from each side, a thin
+and flexible sheet of fabric can be printed upright while the fibers are being weaved. In addition, this technique enables
+users to employ two material colors to design a pattern and prototype an interactive object through a variety of off-theshelf
+material properties such as conductive filament. We detail a technique for weaving a textile and introduce a list
+of parameters that enable users to design various textiles. We demonstrate examples to show the feasibility of our approach
+and numerous applications to integrate printed textiles in a custom object design.
+        </div>
+        <br>
+        <div class="col-sm-12">
+            <h3>Video</h3>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/g-kff9hluew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </div>
+
+      </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+          <h3>System</h3>
+          Grasshopper scripts.
+          <br>
+          <br>
+          <button type="submit" class="btn btn-primary" download="file/test.txt">Download</button>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <h3>Images</h3>
+      </div>
+      <div class="row">
+			  <div class="col-sm-4" align="center">
+          <img class="img-responsive" src="image/printedfabric_gallery/color.jpg">
+        </div>
+        <div class="col-sm-4" align="center">
+          <img class="img-responsive" src="image/printedfabric_gallery/printing.jpg">
+        </div>
+        <div class="col-sm-4" align="center">
+          <img class="img-responsive" src="image/printedfabric_gallery/bend.jpg">
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-sm-4" align="center">
+          <img class="img-responsive" src="image/printedfabric_gallery/multicolor.jpg">
+        </div>
+        <div class="col-sm-4" align="center">
+          <img class="img-responsive" src="image/printedfabric_gallery/pattern.jpg">
+        </div>
+        <div class="col-sm-4" align="center">
+          <img class="img-responsive" src="image/printedfabric_gallery/roll.jpg">
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <center>
+  © Haruki Takahashi
+  </center>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

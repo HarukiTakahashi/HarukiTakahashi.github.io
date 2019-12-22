@@ -24,6 +24,21 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+  #canvas {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+  }
+
+  #true_body {
+    position:absolute;
+    top:80px;
+    left:0;
+  }
+
   </style>
   <script type="text/javascript">
   $(function(){
@@ -51,20 +66,60 @@
   </header>
 
   <!-- container> ======================================================== <!-->
+  <canvas  id="glcanvas" ></canvas>
 
+  <section id="true_body">
 
   <div class="container">
     <div>
-      <h1 id="Gallery">To be myself</h1>
+      <h1 id="Gallery">Made with cables</h1>
     </div>
     <div class="row">
       <div class="col-sm-12">
-        Under construction..
+        If I would, could you?
       </div>
     </div>
 <br>
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+
+  <script type="text/javascript"  src="cables/GoldPlateau/js/perlin.js"></script>
+  <script type="text/javascript" src="cables/GoldPlateau/js/patch.js"></script>
+
+  <script>
+      /**
+       * Called when there was a cables error.
+       * @param {string} errId - ID of the error, e.g. 'NO_WEBGL' or 'NO_WEBAUDIO'
+       *                         when the browser does not support the used APIs
+       * @param {string} errMsg - The error message
+       */
+      function showError(errId, errMsg) {
+          alert('An error occured: ' + errId + ', ' + errMsg);
+      }
+
+      function patchInitialized() {
+          // You can now access the patch object (CABLES.patch), register variable watchers and so on
+      }
+
+      function patchFinishedLoading() {
+          // The patch is ready now, all assets have been loaded
+      }
+
+      document.addEventListener('DOMContentLoaded', function(event) {
+          CABLES.patch = new CABLES.Patch({
+              patch: CABLES.exportedPatch,
+              prefixAssetPath: '',
+              glCanvasId: 'glcanvas',
+              glCanvasResizeToWindow: true,
+              onError: showError,
+              onPatchLoaded: patchInitialized,
+              onFinishedLoading: patchFinishedLoading,
+          });
+      });
+  </script>
+
+
+</section>
 
 
 </body>

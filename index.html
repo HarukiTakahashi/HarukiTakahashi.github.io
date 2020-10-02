@@ -11,53 +11,53 @@
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 	<style type="text/css">
-		body {
-			padding-top: 80px;
-		}
+	body {
+		padding-top: 80px;
+	}
 
-		.img-responsive-overwrite {
-			margin: 0 auto;
-		}
+	.img-responsive-overwrite {
+		margin: 0 auto;
+	}
 
-		.panelHeader {
-			color: rgb(33, 125, 187);
-			;
-		}
-		.hide_area{
-			display: none;
+	.panelHeader {
+		color: rgb(33, 125, 187);
+		;
+	}
+	.hide_area{
+		display: none;
 
 
-		}
+	}
 	</style>
 
 	<script>
-		var flg = "close";
+	var flg = "close";
 
-			$(function(){
-				$('#check').click(function(){
-						$('.hide_area').toggle('fast');
-						if(flg == "close"){
-							$('#check').text("Close");
-							flg = "open";
-						}
-						else{
-							$('#check').text("Show all");
-							flg = "close";
-						}
-					});
-			});
+	$(function(){
+		$('#check').click(function(){
+			$('.hide_area').toggle('fast');
+			if(flg == "close"){
+				$('#check').text("Close");
+				flg = "open";
+			}
+			else{
+				$('#check').text("Show all");
+				flg = "close";
+			}
+		});
+	});
 	</script>
 	<script type="text/javascript">
-		$(function(){
-			$('a[href^=#]').click(function(){
-				var speed = 500;
-				var href= $(this).attr("href");
-				var target = $(href == "#" || href == "" ? 'html' : href);
-				var position = target.offset().top-100;
-				$("html, body").animate({scrollTop:position}, speed, "swing");
-				return false;
-			});
+	$(function(){
+		$('a[href^=#]').click(function(){
+			var speed = 500;
+			var href= $(this).attr("href");
+			var target = $(href == "#" || href == "" ? 'html' : href);
+			var position = target.offset().top-100;
+			$("html, body").animate({scrollTop:position}, speed, "swing");
+			return false;
 		});
+	});
 	</script>
 
 	<!--&#91;if lt IE 9&#93;>
@@ -108,433 +108,475 @@
 						His general research interests include human-computer interaction, digital fabrication and craft.
 					</li>
 					<!-- Haruki Takahashi is a Ph.D. student at Meiji University, a member of Miyashita Laboratory, and an assistant at School of Interdisciplinary Mathematical Sciences, Meiji University (from 2017). He received a bachelor's degree and master's degrees with a major in Engineering from Meiji University in 2013 and 2015, respectively.
-His general research interests include human-computer interaction and digital fabrication. -->
+					His general research interests include human-computer interaction and digital fabrication. -->
 				</ul>
 			</div>
 		</div>
 		<br>
 		<!-- news ======================================================== <!-->
+		<div class="row">
 		<h2 id="news">News</h2>
-			<table class="table table-hover table-condensed">
-				<tr class="" style="display: table-row;">
-					<td>2020/03</td><td>JP</td><td><a href ="report2019.html" target="_blank">2019年度をそれなりにまとめました．</a>2020年度もがんばります．</td>
-				</tr>
-				<tr class="" style="display: table-row;">
-					<td>2020/01</td><td>JP</td><td>はこだて未来大学で3Dプリンタに関する講演をしました．</td>
-				</tr>
-				<tr class="" style="display: table-row;">
-					<td>2020/01</td><td></td><td>Happy New Year!</td>
-				</tr>
+		<table class="table table-hover table-condensed">
+			<tr class="" style="display: table-row;">
+				<td>2020/09</td><td></td><td>Our paper was accepted at <a href="https://uist.acm.org/uist2020/" target="_blank">UIST2020</a> and selected to receive a Honorable Mention Award!!</td>
+			</tr>
+			<tr class="" style="display: table-row;">
+				<td>2020/03</td><td>JP</td><td><a href ="report2019.html" target="_blank">2019年度をそれなりにまとめました．</a>2020年度もがんばります．</td>
+			</tr>
 
-				<tr class="hide_area">
-					<td>2019/10</td><td></td><td>I have presented our work "3D Printed Fabric" at <a href="http://uist.acm.org/uist2019/">UIST2019</a>!</td>
-				</tr>
-				<tr class="hide_area">
-					<td>2019/07</td><td>JP</td><td>芸術科学会論文誌に<a href="https://www.art-science.org/journal/v18n2/index.html" target="_blank">たんぽぽ制作に関する論文</a> が掲載されました．</td>
-				</tr>
-				<tr class="hide_area">
-					<td>2019/05</td><td></td><td>I have presented our work "3D pen + 3D printer" at <a href="https://chi2019.acm.org/">CHI2019</a> on behalf of the collaboration with Jeeeun!</td>
-				</tr>
-				<tr class="hide_area">
-					<td>2019/03</td><td>JP</td><td><a href ="report2018.html" target="_blank">2018年度をこっそりまとめました．</a>2019年度もがんばります．</td>
-				</tr>
-				<tr class="hide_area">
-					<td>2019/03</td><td>JP</td><td><a href ="http://www.interaction-ipsj.org/2019/" target="_blank">インタラクション2019</a>にてデモ発表を行いました．</td>
-				</tr>
+			<tr class="hide_area">
+				<td>2020/01</td><td>JP</td><td>はこだて未来大学で3Dプリンタに関する講演をしました．</td>
+			</tr>
+			<tr class="hide_area">
+				<td>2020/01</td><td></td><td>Happy New Year!</td>
+			</tr>
 
-				<tr class="hide_area">
-					<td>2019/01</td><td></td><td>I collaborated with designers at Nissan Motor Co., Ltd. and <a href="https://www.digitalartisan.co.jp/" target="_blank">Digital Artisan</a> to create an artwork: 1kg dandelion cotton (<a href="https://prtimes.jp/main/html/rd/p/000000001.000040823.html?fbclid=IwAR0W7o-7_8wZ9vtpZL9zyDy3GqZuOwB27SRQxmSQWMVxi28o1helGSPfL7c" target="_blank">Press release in JP</a>). </td>
-				</tr>
+			<tr class="hide_area">
+				<td>2019/10</td><td></td><td>I have presented our work "3D Printed Fabric" at <a href="http://uist.acm.org/uist2019/">UIST2019</a>!</td>
+			</tr>
+			<tr class="hide_area">
+				<td>2019/07</td><td>JP</td><td>芸術科学会論文誌に<a href="https://www.art-science.org/journal/v18n2/index.html" target="_blank">たんぽぽ制作に関する論文</a> が掲載されました．</td>
+			</tr>
+			<tr class="hide_area">
+				<td>2019/05</td><td></td><td>I have presented our work "3D pen + 3D printer" at <a href="https://chi2019.acm.org/">CHI2019</a> on behalf of the collaboration with Jeeeun!</td>
+			</tr>
+			<tr class="hide_area">
+				<td>2019/03</td><td>JP</td><td><a href ="report2018.html" target="_blank">2018年度をこっそりまとめました．</a>2019年度もがんばります．</td>
+			</tr>
+			<tr class="hide_area">
+				<td>2019/03</td><td>JP</td><td><a href ="http://www.interaction-ipsj.org/2019/" target="_blank">インタラクション2019</a>にてデモ発表を行いました．</td>
+			</tr>
 
-				<tr class="hide_area">
-					<td>2019/01</td><td></td><td>Happy New Year!</td>
-				</tr>
-				<tr class="hide_area">
-					<td>2018/12</td><td></td><td>Our paper was conditionally accepted at <a href="https://chi2019ss.acm.org/" target="_blank">CHI2019</a>.</td>
-				</tr>
-				<tr class="hide_area">
+			<tr class="hide_area">
+				<td>2019/01</td><td></td><td>I collaborated with designers at Nissan Motor Co., Ltd. and <a href="https://www.digitalartisan.co.jp/" target="_blank">Digital Artisan</a> to create an artwork: 1kg dandelion cotton (<a href="https://prtimes.jp/main/html/rd/p/000000001.000040823.html?fbclid=IwAR0W7o-7_8wZ9vtpZL9zyDy3GqZuOwB27SRQxmSQWMVxi28o1helGSPfL7c" target="_blank">Press release in JP</a>). </td>
+			</tr>
+
+			<tr class="hide_area">
+				<td>2019/01</td><td></td><td>Happy New Year!</td>
+			</tr>
+			<tr class="hide_area">
+				<td>2018/12</td><td></td><td>Our paper was conditionally accepted at <a href="https://chi2019ss.acm.org/" target="_blank">CHI2019</a>.</td>
+			</tr>
+			<tr class="hide_area">
 				<td>2018/09</td><td>JP</td><td><a href ="https://www.wiss.org/WISS2018/" target="_blank">WISS2018</a>に参加します．</td>
-		 	</tr>
-				<tr class="hide_area">
-					<td>2018/06</td><td></td><td> Jeeeun Kim presented our work <a href ="https://dl.acm.org/citation.cfm?id=3213518">Compositional 3D Printing</a> at <a href="https://scf.acm.org/2018">SCF2018</a></td>
-				</tr>
-				<tr class="hide_area">
-					<td>2018/04</td><td></td><td> I arrived at my new post: I am a Research associate, Meiji University.</td>
-				</tr>
-				<tr class="hide_area">
-					<td>2018/03</td><td></td><td>I recieved Ph.D. from Meiji University. I am grateful to all of the people who help me. Thank you very much!</td>
-				</tr>
-				<tr class="hide_area">
-					<td>2018/03</td><td>JP</td><td><a href=”https://www.interaction-ipsj.org/2018/” target="_blank">インタラクション2018</a>で登壇発表しました．</td>
-				</tr>
-				<tr class="hide_area">
-					<td>2018/01</td><td></td><td>Happy New Year!</td>
-				</tr>
-				<tr class="hide_area">
-					<td>2017/12</td><td>JP</td><td>WISS2017で対話発表賞を受賞しました．ありがとうございます．</td>
-				</tr>
-				<tr class="hide_area">
-					<td>2017/12</td><td>JP</td><td>ヒューマンインタフェース学会論文誌に投稿した論文が採録となりました．掲載は2018年2月の予定です．</td>
-				</tr><tr class="hide_area">
-					<td>2017/11</td><td>JP</td>
-						<td>情報処理学会論文誌に投稿した論文が採録となりました．掲載は2018年2月の予定です．</td>
-				</tr>
-				<tr class="hide_area">
-					<td>2017/11</td><td>JP</td>
-					<td>芸術科学会論文賞を受賞しました．ありがとうございます．</td>
-				</tr>
-				<tr class="hide_area">
-					<td>2017/09</td><td>JP</td>
-					<td>第22回VR学会大会 <a href="http://conference.vrsj.org/ac2017/" target="_blank">VRSJ</a>（徳島大学）にて，CHI2017の論文について講演をしました．</td>
-				</tr>
-				<tr class="hide_area">
-					<td>2017/05</td><td></td>
-					<td>I had attended <a href="https://chi2017.acm.org/" target="_blank">CHI2017</a> and presented our work (Oral and alt.chi).</td>
-				</tr>
-				<tr class="hide_area">
-					<td>2017/04</td><td></td>
-					<td>I transferrd to Graduate School of Advanced Mathematical Sciences (Meiji University), and I was installed as an assistant at School of Interdisciplinary Mathematical Sciences (Meiji University).</td>
-				</tr>
-				<tr class="hide_area">
-					<td>2017/02</td><td></td>
-					<td>
-						Our alt.chi paper was accepted at <a href="https://chi2017.acm.org/" target="_blank">CHI2017</a>. Thank you for discussing!
-					</td>
-				</tr>
-				<tr class="hide_area">
-					<td>2017/01</td><td></td>
-					<td>
-						I submitted a paper to alt.chi at <a href="https://chi2017.acm.org/" target="_blank">CHI2017</a>. #1040 on PCS!<br>
-						(I am collaborating on the project as a co-author)
-					</td>
-					</td>
-				</tr>
-				<tr class="hide_area">
-					<td>2017/01</td><td></td>
-					<td>
-						Happy New Year!
-					</td>
-				</tr>
-				<tr class="hide_area">
-					<td>2016/12</td><td>JP</td>
-					<td>
-						Our paper was published in <a href="http://www.art-science.org/journal/v15n5/" target="_blank">The Journal of the Society for Art and Science</a>.
-					</td>
-				</tr>
-				<tr class="hide_area">
-					<td>2016/12</td><td></td>
-					<td>
-						Our paper was conditionally accepted at <a href="https://chi2017.acm.org/" target="_blank">CHI2017</a>.
-					</td>
-				</tr>
-				<tr class="hide_area">
-					<td>2016/12</td><td>JP</td>
-					<td>
-						I had attended <a href="https://www.wiss.org/WISS2016/" target="_blank">WISS 2016</a> and presented our work.
-					</td>
-				</tr>
-				<tr class="hide_area">
-					<td>2016/10</td><td>JP</td>
-					<td>
-						Our work was broadcast on TV (<a href="http://www.tv-tokyo.co.jp/mv/wbs/trend_tamago/post_120311/" target="_blank">Trend Tamago</a> in WBS).
-					</td>
-				</tr>
-				<tr class="hide_area">
-					<td>2016/10</td><td></td>
-					<td>
-						I had attended <a href="https://uist.acm.org/uist2016/" target="_blank">UIST2016</a> and prensented our work (Demo).
-					</td>
-				</tr>
-				<tr class="hide_area">
-					<td>2016/10</td><td></td>
-					<td>
-						This web site was born in the Internet ocean.
-					</td>
-				</tr>
-			</table>
-			<div class="row">
-				<div class="col-md-2 col-md-offset-5">
-					<a id="check" class="pull-right">Show all</a>
-				</div>
-			</div>
+			</tr>
+			<tr class="hide_area">
+				<td>2018/06</td><td></td><td> Jeeeun Kim presented our work <a href ="https://dl.acm.org/citation.cfm?id=3213518">Compositional 3D Printing</a> at <a href="https://scf.acm.org/2018">SCF2018</a></td>
+			</tr>
+			<tr class="hide_area">
+				<td>2018/04</td><td></td><td> I arrived at my new post: I am a Research associate, Meiji University.</td>
+			</tr>
+			<tr class="hide_area">
+				<td>2018/03</td><td></td><td>I recieved Ph.D. from Meiji University. I am grateful to all of the people who help me. Thank you very much!</td>
+			</tr>
+			<tr class="hide_area">
+				<td>2018/03</td><td>JP</td><td><a href=”https://www.interaction-ipsj.org/2018/” target="_blank">インタラクション2018</a>で登壇発表しました．</td>
+			</tr>
+			<tr class="hide_area">
+				<td>2018/01</td><td></td><td>Happy New Year!</td>
+			</tr>
+			<tr class="hide_area">
+				<td>2017/12</td><td>JP</td><td>WISS2017で対話発表賞を受賞しました．ありがとうございます．</td>
+			</tr>
+			<tr class="hide_area">
+				<td>2017/12</td><td>JP</td><td>ヒューマンインタフェース学会論文誌に投稿した論文が採録となりました．掲載は2018年2月の予定です．</td>
+			</tr><tr class="hide_area">
+				<td>2017/11</td><td>JP</td>
+				<td>情報処理学会論文誌に投稿した論文が採録となりました．掲載は2018年2月の予定です．</td>
+			</tr>
+			<tr class="hide_area">
+				<td>2017/11</td><td>JP</td>
+				<td>芸術科学会論文賞を受賞しました．ありがとうございます．</td>
+			</tr>
+			<tr class="hide_area">
+				<td>2017/09</td><td>JP</td>
+				<td>第22回VR学会大会 <a href="http://conference.vrsj.org/ac2017/" target="_blank">VRSJ</a>（徳島大学）にて，CHI2017の論文について講演をしました．</td>
+			</tr>
+			<tr class="hide_area">
+				<td>2017/05</td><td></td>
+				<td>I had attended <a href="https://chi2017.acm.org/" target="_blank">CHI2017</a> and presented our work (Oral and alt.chi).</td>
+			</tr>
+			<tr class="hide_area">
+				<td>2017/04</td><td></td>
+				<td>I transferrd to Graduate School of Advanced Mathematical Sciences (Meiji University), and I was installed as an assistant at School of Interdisciplinary Mathematical Sciences (Meiji University).</td>
+			</tr>
+			<tr class="hide_area">
+				<td>2017/02</td><td></td>
+				<td>
+					Our alt.chi paper was accepted at <a href="https://chi2017.acm.org/" target="_blank">CHI2017</a>. Thank you for discussing!
+				</td>
+			</tr>
+			<tr class="hide_area">
+				<td>2017/01</td><td></td>
+				<td>
+					I submitted a paper to alt.chi at <a href="https://chi2017.acm.org/" target="_blank">CHI2017</a>. #1040 on PCS!<br>
+					(I am collaborating on the project as a co-author)
+				</td>
+			</td>
+		</tr>
+		<tr class="hide_area">
+			<td>2017/01</td><td></td>
+			<td>
+				Happy New Year!
+			</td>
+		</tr>
+		<tr class="hide_area">
+			<td>2016/12</td><td>JP</td>
+			<td>
+				Our paper was published in <a href="http://www.art-science.org/journal/v15n5/" target="_blank">The Journal of the Society for Art and Science</a>.
+			</td>
+		</tr>
+		<tr class="hide_area">
+			<td>2016/12</td><td></td>
+			<td>
+				Our paper was conditionally accepted at <a href="https://chi2017.acm.org/" target="_blank">CHI2017</a>.
+			</td>
+		</tr>
+		<tr class="hide_area">
+			<td>2016/12</td><td>JP</td>
+			<td>
+				I had attended <a href="https://www.wiss.org/WISS2016/" target="_blank">WISS 2016</a> and presented our work.
+			</td>
+		</tr>
+		<tr class="hide_area">
+			<td>2016/10</td><td>JP</td>
+			<td>
+				Our work was broadcast on TV (<a href="http://www.tv-tokyo.co.jp/mv/wbs/trend_tamago/post_120311/" target="_blank">Trend Tamago</a> in WBS).
+			</td>
+		</tr>
+		<tr class="hide_area">
+			<td>2016/10</td><td></td>
+			<td>
+				I had attended <a href="https://uist.acm.org/uist2016/" target="_blank">UIST2016</a> and prensented our work (Demo).
+			</td>
+		</tr>
+		<tr class="hide_area">
+			<td>2016/10</td><td></td>
+			<td>
+				This web site was born in the Internet ocean.
+			</td>
+		</tr>
+	</table>
+</div>
 
-
-		<br>
-
-		<div>
-			<h2 id="projects">Projects</h2>
+	<div class="row">
+		<div class="col-md-2 col-md-offset-5">
+			<a id="check" class="pull-right">Show all</a>
 		</div>
-
-		<!-- UIST 2019 PAPER -->
-		<div class="row">
-			<div class="col-sm-12">
-				<h3>
-					3D Printed Fabric (UIST2019 Paper)
-				</h3>
-			</div>
-			<div class="col-sm-4">
-				<img class="img-responsive" src="image/printedfabric_gallery/roll.jpg">
-			</div>
-			<div class="col-sm-8">
-				<strong>Abstract</strong><br>
-				<ul style="list-style-type:none;">
-					<li>
-						We present a technique for fabricating soft and flexible textiles using a consumer grade fused deposition modeling (FDM) 3D printer. By controlling the movement of the print header, the FDM alternately weaves the stringing fibers across a row of pillars.
-						Owing to the structure of the fibers, which supports and strengthens the pillars from each side, a 3D printer can print a thin sheet of fabric in an upright position while the fibers are being woven.
-						In addition, this technique enables users to employ materials with various colors and/or properties when designing a pattern, and to prototype an interactive object using a variety of off-the-shelf materials such as a conductive filament.
-						We also describe a technique for weaving textiles and introduce a list of parameters that enable users to design their own textile variations.
-						Finally, we demonstrate examples showing the feasibility of our approach as well as numerous applications integrating printed textiles in a custom object design.
-					</li>
-					<br>
-					<li>
-						<a href="" target="_blank"><i class="glyphicon glyphicon glyphicon glyphicon-book"></i> ACM DL</a><br>
-						<a href="pdf/printed_fabric.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a><br>
-						<a href="" target="_blank"><i class="glyphicon glyphicon glyphicon-film"></i> VIDEO</a><br>
-						<a href="printed_fabric.html" target="_blank"><i class="glyphicon glyphicon glyphicon-info-sign"></i> MORE INFO</a><br>
-
-					</li>
-				</ul>
-				<b></b>
-			</div>
-		</div>
-
-		<!-- CHI 2019 PAPER -->
-		<div class="row">
-			<div class="col-sm-12">
-				<h3>
-					3D Pen + 3D Printer (CHI2019 Paper)
-				</h3>
-			</div>
-			<div class="col-sm-4">
-				<img class="img-responsive" src="image/chi2019paper.png">
-			</div>
-			<div class="col-sm-8">
-				<strong>Abstract</strong><br>
-				<ul style="list-style-type:none;">
-					<li>
-						The emergence of a 3D pen brings 3D modeling from a screenbased	computer-aided design (CAD) system and 3D printing to direct and rapid crafting by 3D doodling. However, 3D	doodling remains challenging, requiring craft skills to rapidly express an idea, which is critical in creative making. We	explore a new process of 3D modeling using 3D pen + 3D printer. Our pilot study shows that users need support to reduce the number of non-creative tasks to explore a wide design strategy. With the opportunity to invent a new 3D modeling process that needs to incorporate both a pen and printer, we propose techniques and a system that empower	users to print while doodling to focus on creative exploration. Our user study shows that users can create diverse 3D models using a pen and printer. We discuss the roles of the human and fabrication machine for the future of fabrication.
-					</li>
-					<br>
-					<li>
-						<a href="https://dl.acm.org/citation.cfm?id=3300525" target="_blank"><i class="glyphicon glyphicon glyphicon glyphicon-book"></i> ACM DL</a><br>
-						<a href="pdf/pen+printer_preprint.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a><br>
-						<a href="https://www.youtube.com/watch?v=AXdC0nkI_mk" target="_blank"><i class="glyphicon glyphicon glyphicon-film"></i> VIDEO</a><br>
-
-					</li>
-				</ul>
-				<b>Haruki Takahashi and Jeeeun Kim. 3D Pen + 3D Printer : Exploring the Role of Humans and Fabrication Machines in Creative Making. In Proceedings of CHI 2019, 12 pages, 2019.</b>
-			</div>
-		</div>
-
-
-		<!-- CHI 2017 PAPER -->
-		<div class="row">
-			<div class="col-sm-12">
-				<h3>
-					Expressive Fused Deposition Modeling (CHI2017 Paper)
-				</h3>
-			</div>
-			<div class="col-sm-4">
-				<img class="img-responsive" src="image/chi2017paper.png">
-			</div>
-			<div class="col-sm-8">
-				<strong>Abstract</strong><br>
-				<ul style="list-style-type:none;">
-					<li>
-						Fused deposition modeling (FDM) 3D printers form objects by stacking layers having a linear structure. To print fine structures, an appropriate choice of parameters is necessary, or printing error occurs. On the other hand, the printing error is exploited as an expression technique. However, the relation between the printed structure and the parameters causing the printing error is unclear. In this paper, we focus on the height position of the extruder and the amount of extruded material, and explore the combination of these parameters to enhance the capability of FDM. By extending an equation that calculates the amount of material from the layer height, we investigate the behavior and structure of material extruded from various height positions. On the basis of experimental results, the printed structure is classified into six categories according to the structural feature. We describe these structural features and demonstrate examples with new inherent expressions for FDM.
-					</li>
-					<br>
-					<li>
-						<a href="https://doi.org/10.1145/3025453.3025933" target="_blank"><i class="glyphicon glyphicon glyphicon glyphicon-book"></i> ACM DL</a><br>
-						<a href="pdf/efdm_preprint.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a><br>
-						<a href="https://www.youtube.com/watch?v=RF-_wwd8HXk" target="_blank"><i class="glyphicon glyphicon glyphicon-film"></i> VIDEO</a><br>
-						<a href="efdm_gallery.html" target="_blank"><i class="glyphicon glyphicon glyphicon-picture"></i> Gallery<br></a>
-					</li>
-				</ul>
-				<b>Haruki Takahashi and Homei Miyashita. Expressive Fused Deposition Modeling by Controlling Extruder Height and Extrusion Amount. In Proceedings of CHI 2017, pp.5065-5074, 2017.					</b>
-			</div>
-		</div>
-
-		<!-- UIST 2016 DEMO -->
-		<div class="row">
-			<div class="col-sm-12">
-				<h3>
-					Thickness Control Technique (UIST2016 Demo)
-				</h3>
-			</div>
-			<div class="col-sm-4">
-				<img class="img-responsive" src="image/uist2016demo.png">
-			</div>
-			<div class="col-sm-8">
-				<strong>Abstract</strong><br>
-				<ul style="list-style-type:none;">
-					<li>We present a printing technique that controls the thickness of objects by increasing and decreasing the amount of material extruded during printing. Using this technique, printers can dynamically control thickness and output thicker objects without a staircase effect. This technique allows users to print aesthetic pattern sheets and objects that are tactile without requiring any new hardware. This extends the capabilities of fused deposition modeling (FDM) 3D printers in a simple way. We describe a method of generating and calculating a movement path for printing tactile sheets, and demonstrate the usage and processing of example objects.</li>
-					<br>
-					<li>
-						<a href="http://dx.doi.org/10.1145/2984751.2985701" target="_blank"><i class="glyphicon glyphicon glyphicon glyphicon-book"></i> ACM DL</a><br>
-						<a href="pdf/tct_preprint.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a><br>
-						<a href="https://www.youtube.com/watch?v=fL9W5oxfj3g" target="_blank"><i class="glyphicon glyphicon glyphicon-film"></i> VIDEO</a><br>
-						<a href="file/70x70PLA.gcode"><i class="glyphicon glyphicon-ok"></i> Example Gcode</a>
-						- I recommend using a PLA filament.<br>
-
-					</li>
-				</ul>
-
-
-			</div>
-		</div>
-		<br>
-		<div>
-			<h2 id="publications">Publications</h2>
-			<h3>International Conference (Oral)</h3>
-			<ol>
-				<li><u>Haruki Takahashi</u> and Jeeeun Kim. 3D Printed Fabric: Techniques for Design and 3D Weaving Programmable Textiles. In Proceedings of UIST 2019, pp.43-51, 2019.
-				<a href="pdf/printed_gabric.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a></li>
-				<li><u>Haruki Takahashi</u> and Jeeeun Kim. 3D Pen + 3D Printer: Exploring the Role of Humans and Fabrication Machines in Creative Making. In Proceedings of CHI 2019, No.295, 2019.
-				<a href="pdf/pen+printer_preprint.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a></li>
-				<li>Jeeeun Kim, Clement Zheng, <u>Haruki Takahashi</u>, Mark D Gross, Daniel Ashbrook and Tom Yeh. Expanding & Supporting Workflows Towards Compositional 3D Printing. In Proceedings of Acm Symposium On Computational Fabrication (SCF’18), 2018.</li>
-				<!--<a href="" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a></li>-->
-				<li><u>Haruki Takahashi</u> and Homei Miyashita. Expressive Fused Deposition Modeling by Controlling Extruder Height and Extrusion Amount. In Proceedings of CHI 2017, pp.5065-5074, 2017.
-				<a href="https://research.miyashita.com/2017/I26/I26.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a></li>
-				<li>Jeeeun Kim, <u>Haruki Takahashi</u>, Homei Miyashita, Michelle Annett and Tom Yeh. Machines as Co-Designers: A Fiction on the Future of Human-Fabrication Machine Interaction. In Proceedings of CHI 2017 Extended Abstracts, pp.790-805, 2017.
-				<a href="https://research.miyashita.com/2017/I27/I27.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a></li>
-				<li><u>Haruki Takahashi</u> and Homei Miyashita. An Interactive Fabrication System that Allows Users to Edit a 3D Model during 3D Printing. International Conference on Digital Fabrication 2016 (ICDF 2016).
-				<a href="https://research.miyashita.com/2016/I19/I19.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a></li>
-				<li><u>Haruki Takahashi</u> and Homei Miyashita. Animation Affecting the Operation Feeling on GUI Environment. International Symposium on Psychological vs Mathematical Approaches to Optical Illusion (Tokyo Symposium on Optical Illusion 2015).</li>
-			</ol>
-
-			<h3>International Conference (Demo)</h3>
-			<ol>
-				<li><u>Haruki Takahashi</u> and Homei Miyashita. "Thickness Control Technique for Printing Tactile Sheets with Fused Deposition Modeling". In Adjunct Proc. UIST 2016, pp.51-53.
-				<a href="https://research.miyashita.com/2016/I22/I22.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a></li>
-
-			</ol>
-			<h3>論文誌</h3>
-			<ol>
-				<li>高橋 治輝. 熱溶解積層方式3Dプリンタの造形手法を用いた「たんぽぽの綿毛」の制作. 芸術科学会論文誌. Vol.18, No.2, pp.87-96, 2019.</li>
-				<li>高橋 治輝, 宮下 芳明. 熱溶解積層方式3Dプリンタの造形工程の観察と介入を前提とした一時停止命令の再設計. ヒューマンインタフェース学会論文誌. Vol.20, No.1, 2018.</li>
-				<li>高橋 治輝, 宮下 芳明. Road単位の造形に着目した熱溶解積層方式3Dプリンタでの質感表現. 情報処理学会論文誌. Vol. 59, No. 2, 2018.</li>
-				<li>高橋 治輝, 宮下 芳明. 水平面の造形を用いて3Dプリンタの造形領域を拡張する手法の提案. ヒューマンインタフェース学会論文誌. Vol.19, No.1, pp.77-86, 2017.
-				<a href="https://research.miyashita.com/2017/J23/J23.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a></li>
-				<li>高橋 治輝, 宮下 芳明. オーバーエクストルージョンを用いた熱溶解積層方式3Dプリンタのための造形手法. 芸術科学会論文誌. Vol. 15, No. 5, pp. 194-207, 2016.
-				<a href="https://research.miyashita.com/2016/J22/J22.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a></li>
-			</ol>
-			<h3>国内会議</h3>
-			<ol>
-				<li>高橋 治輝. 3DモデルへのGcode埋め込みによる一元管理とその利用例, インタラクション2019論文集，2019．</li>
-				<li>高橋 治輝. 3D Printer-assisted 3D Drawing: 3Dペンと3Dプリンタを組み合わせた創作環境の提案, 日本ソフトウェア科学会 WISS2018, 2018. (ロングティザー)</li>
-				<li>野崎 玲那, 高橋 治輝, 宮下 芳明. Felting Deposition Modeling: フェルティングニードルを用いた羊毛フェルト3Dプリンタ, 日本ソフトウェア科学会 WISS2018, 2018. </li>
-
-				<li>高橋治輝，宮下芳明． 熱溶解積層方式3Dプリンタを用いた表現と造形手法のデザインのためのパラメータ探索手法，インタラクション2018論文集，pp.135-144，2018．</li>
-				<li>高橋 治輝, 宮下 芳明. ブリッジ構造と樹脂の引き伸ばしを用いた高密度な毛構造の造形手法. 日本ソフトウェア科学会 WISS2017, 2017.</li>
-				<li>高橋 治輝, 宮下 芳明. 造形高さと樹脂量の設定による熱溶解積層方式3Dプリンタの表現力拡張．日本ソフトウェア科学会 WISS2016, pp.193-198.
-				<a href="https://research.miyashita.com/2016/D167/D167.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a></li>
-				<li>高橋 治輝, 宮下 芳明. 3Dプリンタの造形中もモデリング可能なインタラクティブ・ファブリケーション. 日本ソフトウェア科学会 WISS2015, pp.13-15，2015.
-					<a href="https://research.miyashita.com/2015/D157/D157.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a></li>
-					<li>高橋 治輝, 宮下 芳明. HoverPen: 交わらない線が描けるペンで実現可能な表現. 日本ソフトウェア科学会 WISS2014, pp.173-174, 2014.
-					<a href="https://research.miyashita.com/2014/D150/D150.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a></li>
-					<li>高橋 治輝, 宮下 芳明. 楽譜断片から始めるドラム練習. 情報処理学会 インタラクション2013, pp. 756-761, 2013.
-					<a href="https://research.miyashita.com/2013/D135/D135.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a></li>
-					<li>太田 佳敬, 高橋 治輝, 中橋 雅弘, 宮下 芳明. 音響マクロ : マウス操作の音響記録・再生・配信と編集. 情報処理学会 ヒューマンコンピュータインタラクション研究会報告, Vol.2013-HCI-151, pp. 1-2, 2013.
-					<a href="https://research.miyashita.com/2013/D121/D121.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a></li>
-					<li>高橋 治輝, 宮下 芳明. 裁断された譜面を用いたドラム練習支援, 情報処理学会 エンタテイメントコンピューティング2012, pp.337-340, 2012.</li>
-				</li>
-			</ol>
-
-			<h3>講演</h3>
-			<ol>
-			<li>2017年9月　CHI2017採択論文紹介, 世界を目指せ！ ― トップコンファレンス採択論文紹介,　第22回バーチャルリアリティ学会大会（徳島）.</li>
-			<li>2020年1月　3Dプリンタの造形手法研究とラピッドプロトタイピング, センサ工学, 公立はこだて未来大学（北海道）.</li>
-			</ol>
-
-			<h3>表彰</h3>
-			<ol>
-			<li>2017年12月　WISS2017　対話発表賞. </li>
-			<li>2017年11月　平成28年度　芸術科学会論文賞 <a href="http://www.meiji.ac.jp/ims/news/2017/6t5h7p00000pruvr.html" target="_blank">受賞ニュース（明治大学）</a>.</li>
-			</ol>
-
-
-			<h3>略歴</h3>
-			<ul>
-			<li>2009年3月　茨城県立下妻第一高等学校 卒業</li>
-			<li>2009年4月　明治大学 理工学部 情報科学科 入学</li>
-			<li>2013年3月　明治大学 理工学部 情報科学科 卒業</li>
-			<li>2013年4月　明治大学大学院 理工学研究科 新領域創造専攻 博士前期課程　入学</li>
-			<li>2015年3月　明治大学大学院 理工学研究科 新領域創造専攻 博士前期課程　修了</li>
-			<li>2015年4月　明治大学大学院 理工学研究科 新領域創造専攻 博士後期課程　入学</li>
-			<li>2017年4月　明治大学大学院 先端数理科学研究科 先端メディアサイエンス専攻 博士後期課程　編入学</li>
-			<li>2018年3月　明治大学大学院 先端数理科学研究科 先端メディアサイエンス専攻 博士後期課程　修了，博士（工学）</li>
-		</ul>
-
-			<h3>職歴</h3>
-			<ol>
-			<li>明治大学理工学部 助手 （2015年4月 - 2017年3月）</li>
-			<li>明治大学総合数理学部 助手 （2017年4月 - 2018年3月）</li>
-			<li>明治大学総合数理学部 助教 （2018年4月 - 現在）</li>
-			</ol>
-
-			<h3>教育</h3>
-			<ul>
-			<dl>
-			<li><dt>2018年度（明治大学FMS）</dt></li>
-			    <dd>情報技術概論，アルゴリズム基礎，プログラミング演習Ⅰ・Ⅱ</dd>
-					<dd>サマーセミナー, 「3Dモデリング&3Dプリンタ講座」, 2018年8月6日．</dd>
-			</dl>
-			<dl>
-			<li><dt>2019年度（明治大学FMS）</dt></li>
-					<dd>情報技術概論，アルゴリズム基礎，プログラミング演習Ⅰ・Ⅱ</dd>
-					<dd>サマーセミナー, 「3Dモデリング&3Dプリンタ講座」, 2019年8月5日</dd>
-			</dl>
-			</dl>
-		　</ul>
-
-			<h3>所属学会</h3>
-			<ul>
-		  <li>情報処理学会 ヒューマンコンピュータインタラクション研究会（HCI研究会） 正会員</li>
-		  <li>ACM SIGCHI 正会員</li>
-			<li>芸術科学会 正会員</li>
-		</ul>
-
-
-			<h3>助成</h3>
-			<ol>
-			<li>明治大学「大学院生海外研究プログラム」, 2017.</li>
-			</ol>
-
-			<h3>メディア掲載</h3>
-			<ol>
-				<li>日本物流新聞（記事掲載）, 「3Dプリンタで変わるデザイン，フサフサの『毛』を造形」, 2018年2月10日．</li>
-				<li>明治大学(プレスリリース), <a href="http://www.meiji.ac.jp/koho/press/2017/6t5h7p00000pwmqe.html" target="_blank">「3Dプリンタの新たな造形方法を開発 ～高密度な「毛」を3Dプリント～」</a>, 2017年12月5日．</li>
-				<ul>ニュースサイト：<a href="https://fabcross.jp/news/2017/20171206_meiji_new3dprintingtechnique.html" target="_blank">fabcross</a>，
-						<a href="https://news.mynavi.jp/article/20171205-552115/" target="_blank">マイナビニュース</a>，
-						<a href="http://idarts.co.jp/3dp/meijiuniv-3d-rinting-release/" target="_blank">3DP id.arts</a>
-				</ul>
-				<li>ズームイン!！サタデー, フューチャリスタ, 宮下芳明, 2017年1月28日. (僕の研究も紹介して頂きました)</li>
-				<li>WBS, トレンドたまご, <a href="http://www.tv-tokyo.co.jp/mv/wbs/trend_tamago/post_120311/" target="_blank">「質感制御のための造形手法」</a>, 2016年10月24日．</li>
-				<li>明治大学(プレスリリース), <a href="https://www.meiji.ac.jp/koho/press/2016/6t5h7p00000m3slr.html" target="_blank">「3Dプリンタの新たな造形方法を開発 ～滑らかな手触りを3Dプリント～」</a>, 2016年10月18日．</li>
-				<ul>ニュースサイト：<a href="http://www.3ders.org/articles/20171221-japanese-engineers-create-tactile-3d-printed-surface-patterns-using-clever-technique.html" target="_blank">www.3Ders.org</a></ul>
-				<li>日経産業新聞（記事掲載）, 「端末 たたいて操作 明大、ソフト開発 部位認識、ボタン代替」, 2014年10月17日. </li>
-			</ol>
-
-			<h3>その他</h3>
-			<ol>
-				<li><a href="https://qiita.com/HarukiTakahashi/items/6c4fba65e3a2cd38e66b" target="_blank">vvvvと私の博士課程</a>, vvvv Advent Calendar 2017, 2017年12月20日．</li>
-					<li><a href="http://peatix.com/event/270586" target="_blank">第22回 vvvv オフ会（vvvv to 3D printer）</a> 主催, 2017年6月17日．</li>
-				<li><a href="https://qiita.com/HarukiTakahashi/items/e79a390b4071fe7a74a1" target="_blank">vvvvで3Dプリンタを動かす</a>, vvvv Advent Calendar 2015, 2015年12月21日．</li>
-				<li><a href="https://qiita.com/HarukiTakahashi/items/dec299827a81f2d2f3c7" target="_blank">大学でvvvv勉強会を開催したお話</a>, vvvv Advent Calendar 2015, 2015年12月17日．</li>
-			</ol>
-
-		</div>
-
 	</div>
 
+<hr>
 
-	<center>
+	<div>
+		<h2 id="projects">Projects</h2>
+	</div>
+
+	<!-- UIST 2020 PAPER -->
+	<div class="row">
+		<div class="col-sm-12">
+			<h3>
+				Programmable Filament (UIST2020 Paper)
+			</h3>
+		</div>
+		<div class="col-sm-4">
+			<img class="img-responsive" src="image/uist2020pf.png">
+		</div>
+		<div class="col-sm-8">
+			3D printing technique that enables multi-material printing using a commodity FDM 3D printer, requiring no hardware upgrades.
+			Multiple filament segments are printed and spliced into a single threaded filament.
+			<br>
+			<br>
+			<a href="https://dl.acm.org/doi/10.1145/3332165.3347896" target="_blank"><i class="glyphicon glyphicon glyphicon glyphicon-book"></i> ACM DL</a>&emsp;
+			<a href="pdf/programmable_filament.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a>&emsp;
+			<a href="https://www.youtube.com/watch?v=ZnCh6JK0RZs" target="_blank"><i class="glyphicon glyphicon glyphicon-film"></i> VIDEO</a>&emsp;
+			<br>
+			<strong>SIGCHI Best of UIST Honorable Mention Award!</strong>
+		</div>
+	</div>
+	<br>
+
+	<!-- UIST 2019 PAPER -->
+	<div class="row">
+		<div class="col-sm-12">
+			<h3>
+				3D Printed Fabric (UIST2019 Paper)
+			</h3>
+		</div>
+		<div class="col-sm-4">
+			<img class="img-responsive" src="image/printedfabric_gallery/roll.jpg">
+		</div>
+		<div class="col-sm-8">
+			3D printing technique for fabricating soft and flexible textiles using a consumer grade fused deposition modeling (FDM) 3D printer.
+			By controlling the movement of the print header, the FDM alternately weaves the stringing fibers across a row of pillars.
+			<br>
+			<br>
+			<a href="https://dl.acm.org/doi/10.1145/3332165.3347896" target="_blank"><i class="glyphicon glyphicon glyphicon glyphicon-book"></i> ACM DL</a>&emsp;
+			<a href="pdf/printed_fabric.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a>&emsp;
+			<a href="https://www.youtube.com/watch?v=V_KHSKNU4nI" target="_blank"><i class="glyphicon glyphicon glyphicon-film"></i> VIDEO</a>&emsp;
+			<a href="printed_fabric.html" target="_blank"><i class="glyphicon glyphicon glyphicon-info-sign"></i> MORE INFO</a><br>
+			<b></b>
+		</div>
+	</div>
+	<br>
+
+	<!-- CHI 2019 PAPER -->
+	<div class="row">
+		<div class="col-sm-12">
+			<h3>
+				3D Pen + 3D Printer (CHI2019 Paper)
+			</h3>
+		</div>
+		<div class="col-sm-4">
+			<img class="img-responsive" src="image/chi2019paper.png">
+		</div>
+		<div class="col-sm-8">
+			Exploration of a new process of 3D modeling using 3D pen + 3D printer.
+			Basef on a pilot study, we propose techniques and system that empower users to print while doodling to focus on creative exploration.
+			<br>
+			<br>
+			<a href="https://dl.acm.org/doi/10.1145/3290605.3300525" target="_blank"><i class="glyphicon glyphicon glyphicon glyphicon-book"></i> ACM DL</a>&emsp;
+			<a href="pdf/pen+printer_preprint.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a>&emsp;
+			<a href="https://www.youtube.com/watch?v=AXdC0nkI_mk" target="_blank"><i class="glyphicon glyphicon glyphicon-film"></i> VIDEO</a>&emsp;
+		</ul>
+	</div>
+</div>
+<br>
+
+<!-- CHI 2017 PAPER -->
+<div class="row">
+	<div class="col-sm-12">
+		<h3>
+			Expressive Fused Deposition Modeling (CHI2017 Paper)
+		</h3>
+	</div>
+	<div class="col-sm-4">
+		<img class="img-responsive" src="image/chi2017paper.png">
+	</div>
+	<div class="col-sm-8">
+		3D printing technique to print a expressive objects.
+		By controlling the height position of the extruder and the amount of extruded material, and explore the combination of these parameters to enhance the capability of FDM.
+		<br>
+		<br>
+		<a href="https://doi.org/10.1145/3025453.3025933" target="_blank"><i class="glyphicon glyphicon glyphicon glyphicon-book"></i> ACM DL</a>&emsp;
+		<a href="pdf/efdm_preprint.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a>&emsp;
+		<a href="https://www.youtube.com/watch?v=RF-_wwd8HXk" target="_blank"><i class="glyphicon glyphicon glyphicon-film"></i> VIDEO</a>&emsp;
+		<a href="efdm_gallery.html" target="_blank"><i class="glyphicon glyphicon glyphicon-picture"></i> Gallery</a>&emsp;
+	</div>
+</div>
+<br>
+
+<!-- UIST 2016 DEMO -->
+<div class="row">
+	<div class="col-sm-12">
+		<h3>
+			Thickness Control Technique (UIST2016 Demo)
+		</h3>
+	</div>
+	<div class="col-sm-4">
+		<img class="img-responsive" src="image/uist2016demo.png">
+	</div>
+	<div class="col-sm-8">
+		3D printing technique that controls the thickness of objects by increasing and decreasing the amount of material extruded during printing.
+		Using this technique, printers can dynamically control thickness and output thicker objects without a staircase effect.
+		<br>
+		<br>
+		<a href="http://dx.doi.org/10.1145/2984751.2985701" target="_blank"><i class="glyphicon glyphicon glyphicon glyphicon-book"></i> ACM DL</a>&emsp;
+		<a href="pdf/tct_preprint.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a>&emsp;
+		<a href="https://www.youtube.com/watch?v=fL9W5oxfj3g" target="_blank"><i class="glyphicon glyphicon glyphicon-film"></i> VIDEO</a><br>
+		<a href="file/70x70PLA.gcode"><i class="glyphicon glyphicon-ok"></i> Example Gcode</a>
+		- I recommend using a PLA filament.<br>
+
+	</div>
+</div>
+<br>
+
+<hr>
+<div>
+	<h2 id="publications">Publications</h2>
+	<h3>International Conference (Oral)</h3>
+	<ol>
+		<li><u>Haruki Takahashi</u>, Parinya Punpongsanon and Jeeeun Kim. Programmable Filament: Printed Filaments for Multi-material 3D Printing.
+			In Proceedings of UIST 2020 (To appear).
+		</li>
+
+		<li>Shota Yamanaka, Hiroki Usuba, <u>Haruki Takahashi</u>, Homei Miyashita.
+			Servo-Gaussian Model to Predict Success Rates in Manual Tracking: Path Steering and Pursuit of 1D Moving Target.
+			In Proceedings of UIST 2020 (To appear).
+		</li>
+		<li>Shota Yamanaka, Hiroki Usuba, <u>Haruki Takahashi</u>, Homei Miyashita.
+			Peephole Steering: Speed Limitation Models for Steering Performance in Restricted View Sizes. In Proceedings of Graphics Interface 2020.
+		</li>
+		<li><u>Haruki Takahashi</u> and Jeeeun Kim. 3D Printed Fabric: Techniques for Design and 3D Weaving Programmable Textiles. In Proceedings of UIST 2019, pp.43-51, 2019.
+			<a href="pdf/printed_gabric.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a>
+		</li>
+		<li><u>Haruki Takahashi</u> and Jeeeun Kim. 3D Pen + 3D Printer: Exploring the Role of Humans and Fabrication Machines in Creative Making. In Proceedings of CHI 2019, No.295, 2019.
+			<a href="pdf/pen+printer_preprint.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a>
+		</li>
+		<li>Jeeeun Kim, Clement Zheng, <u>Haruki Takahashi</u>, Mark D Gross, Daniel Ashbrook and Tom Yeh. Expanding & Supporting Workflows Towards Compositional 3D Printing. In Proceedings of Acm Symposium On Computational Fabrication (SCF’18), 2018.
+		</li>
+		<li><u>Haruki Takahashi</u> and Homei Miyashita. Expressive Fused Deposition Modeling by Controlling Extruder Height and Extrusion Amount. In Proceedings of CHI 2017, pp.5065-5074, 2017.
+			<a href="https://research.miyashita.com/2017/I26/I26.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a>
+		</li>
+		<li>Jeeeun Kim, <u>Haruki Takahashi</u>, Homei Miyashita, Michelle Annett and Tom Yeh. Machines as Co-Designers: A Fiction on the Future of Human-Fabrication Machine Interaction. In Proceedings of CHI 2017 Extended Abstracts, pp.790-805, 2017.
+			<a href="https://research.miyashita.com/2017/I27/I27.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a>
+		</li>
+		<li><u>Haruki Takahashi</u> and Homei Miyashita. An Interactive Fabrication System that Allows Users to Edit a 3D Model during 3D Printing. International Conference on Digital Fabrication 2016 (ICDF 2016).
+			<a href="https://research.miyashita.com/2016/I19/I19.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a>
+		</li>
+		<li><u>Haruki Takahashi</u> and Homei Miyashita. Animation Affecting the Operation Feeling on GUI Environment. International Symposium on Psychological vs Mathematical Approaches to Optical Illusion (Tokyo Symposium on Optical Illusion 2015).
+		</li>
+	</ol>
+
+	<h3>International Conference (Demo)</h3>
+	<ol>
+		<li><u>Haruki Takahashi</u> and Homei Miyashita. "Thickness Control Technique for Printing Tactile Sheets with Fused Deposition Modeling". In Adjunct Proc. UIST 2016, pp.51-53.
+			<a href="https://research.miyashita.com/2016/I22/I22.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a>
+		</li>
+
+	</ol>
+
+	<h3>論文誌</h3>
+	<ol>
+		<li>高橋 治輝. 熱溶解積層方式3Dプリンタの造形手法を用いた「たんぽぽの綿毛」の制作. 芸術科学会論文誌. Vol.18, No.2, pp.87-96, 2019.</li>
+		<li>高橋 治輝, 宮下 芳明. 熱溶解積層方式3Dプリンタの造形工程の観察と介入を前提とした一時停止命令の再設計. ヒューマンインタフェース学会論文誌. Vol.20, No.1, 2018.</li>
+		<li>高橋 治輝, 宮下 芳明. Road単位の造形に着目した熱溶解積層方式3Dプリンタでの質感表現. 情報処理学会論文誌. Vol. 59, No. 2, 2018.</li>
+		<li>高橋 治輝, 宮下 芳明. 水平面の造形を用いて3Dプリンタの造形領域を拡張する手法の提案. ヒューマンインタフェース学会論文誌. Vol.19, No.1, pp.77-86, 2017.
+			<a href="https://research.miyashita.com/2017/J23/J23.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a>
+		</li>
+		<li>高橋 治輝, 宮下 芳明. オーバーエクストルージョンを用いた熱溶解積層方式3Dプリンタのための造形手法. 芸術科学会論文誌. Vol. 15, No. 5, pp. 194-207, 2016.
+			<a href="https://research.miyashita.com/2016/J22/J22.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a>
+		</li>
+
+	</ol>
+	<h3>国内会議</h3>
+	<ol>
+		<li>高橋 治輝. 3DモデルへのGcode埋め込みによる一元管理とその利用例, インタラクション2019論文集，2019．</li>
+		<li>高橋 治輝. 3D Printer-assisted 3D Drawing: 3Dペンと3Dプリンタを組み合わせた創作環境の提案, 日本ソフトウェア科学会 WISS2018, 2018. (ロングティザー)</li>
+		<li>野崎 玲那, 高橋 治輝, 宮下 芳明. Felting Deposition Modeling: フェルティングニードルを用いた羊毛フェルト3Dプリンタ, 日本ソフトウェア科学会 WISS2018, 2018. </li>
+
+		<li>高橋治輝，宮下芳明． 熱溶解積層方式3Dプリンタを用いた表現と造形手法のデザインのためのパラメータ探索手法，インタラクション2018論文集，pp.135-144，2018．</li>
+		<li>高橋 治輝, 宮下 芳明. ブリッジ構造と樹脂の引き伸ばしを用いた高密度な毛構造の造形手法. 日本ソフトウェア科学会 WISS2017, 2017.</li>
+		<li>高橋 治輝, 宮下 芳明. 造形高さと樹脂量の設定による熱溶解積層方式3Dプリンタの表現力拡張．日本ソフトウェア科学会 WISS2016, pp.193-198.
+			<a href="https://research.miyashita.com/2016/D167/D167.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a>
+		</li>
+		<li>高橋 治輝, 宮下 芳明. 3Dプリンタの造形中もモデリング可能なインタラクティブ・ファブリケーション. 日本ソフトウェア科学会 WISS2015, pp.13-15，2015.
+			<a href="https://research.miyashita.com/2015/D157/D157.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a>
+		</li>
+		<li>高橋 治輝, 宮下 芳明. HoverPen: 交わらない線が描けるペンで実現可能な表現. 日本ソフトウェア科学会 WISS2014, pp.173-174, 2014.
+			<a href="https://research.miyashita.com/2014/D150/D150.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a>
+		</li>
+		<li>高橋 治輝, 宮下 芳明. 楽譜断片から始めるドラム練習. 情報処理学会 インタラクション2013, pp. 756-761, 2013.
+			<a href="https://research.miyashita.com/2013/D135/D135.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a>
+		</li>
+		<li>太田 佳敬, 高橋 治輝, 中橋 雅弘, 宮下 芳明. 音響マクロ : マウス操作の音響記録・再生・配信と編集. 情報処理学会 ヒューマンコンピュータインタラクション研究会報告, Vol.2013-HCI-151, pp. 1-2, 2013.
+			<a href="https://research.miyashita.com/2013/D121/D121.pdf" target="_blank"><i class="glyphicon glyphicon glyphicon-file"></i> PDF</a>
+		</li>
+		<li>高橋 治輝, 宮下 芳明. 裁断された譜面を用いたドラム練習支援, 情報処理学会 エンタテイメントコンピューティング2012, pp.337-340, 2012.
+		</li>
+	</li>
+</ol>
+
+<h3>講演</h3>
+<ol>
+	<li>2020年9月　3D Printed Fabric: FDM方式3Dプリンタを用いた布の造形手法, トップコンファレンスセッション2-2 ユーザインタフェース, FIT2020.</li>
+	<li>2020年1月　3Dプリンタの造形手法研究とラピッドプロトタイピング, センサ工学, 公立はこだて未来大学（北海道）.</li>
+	<li>2017年9月　CHI2017採択論文紹介, 世界を目指せ！ ― トップコンファレンス採択論文紹介,　第22回バーチャルリアリティ学会大会（徳島）.</li>
+</ol>
+
+<h3>表彰</h3>
+<ol>
+	<li>2020年10月　UIST2020 SIGCHI Best of UIST Honorable Mention Award. </li>
+	<li>2017年12月　WISS2017　対話発表賞. </li>
+	<li>2017年11月　平成28年度　芸術科学会論文賞 <a href="http://www.meiji.ac.jp/ims/news/2017/6t5h7p00000pruvr.html" target="_blank">受賞ニュース（明治大学）</a>.</li>
+</ol>
+
+<h3>助成</h3>
+<ol>
+	<li>2020年4月-	塚田浩二（研究代表者）,高橋治輝（研究分担者）, 「実世界デバイスを拡張するファンクショナル・テクスチャ」</li>
+	<li>2017年, 明治大学「大学院生海外研究プログラム」</li>
+</ol>
+
+<hr>
+
+<h3>略歴</h3>
+<ul>
+	<li>2009年3月　茨城県立下妻第一高等学校 卒業</li>
+	<li>2009年4月　明治大学 理工学部 情報科学科 入学</li>
+	<li>2013年3月　明治大学 理工学部 情報科学科 卒業</li>
+	<li>2013年4月　明治大学大学院 理工学研究科 新領域創造専攻 博士前期課程　入学</li>
+	<li>2015年3月　明治大学大学院 理工学研究科 新領域創造専攻 博士前期課程　修了</li>
+	<li>2015年4月　明治大学大学院 理工学研究科 新領域創造専攻 博士後期課程　入学</li>
+	<li>2017年4月　明治大学大学院 先端数理科学研究科 先端メディアサイエンス専攻 博士後期課程　編入学</li>
+	<li>2018年3月　明治大学大学院 先端数理科学研究科 先端メディアサイエンス専攻 博士後期課程　修了，博士（工学）</li>
+</ul>
+
+<h3>職歴</h3>
+<ol>
+	<li>明治大学理工学部 助手 （2015年4月 - 2017年3月）</li>
+	<li>明治大学総合数理学部 助手 （2017年4月 - 2018年3月）</li>
+	<li>明治大学総合数理学部 助教 （2018年4月 - 現在）</li>
+</ol>
+
+<h3>教育</h3>
+<ul>
+	<dl>
+		<li><dt>2018年度（明治大学FMS）</dt></li>
+		<dd>情報技術概論，アルゴリズム基礎，プログラミング演習Ⅰ・Ⅱ</dd>
+		<dd>サマーセミナー, 「3Dモデリング&3Dプリンタ講座」, 2018年8月6日．</dd>
+	</dl>
+	<dl>
+		<li><dt>2019年度（明治大学FMS）</dt></li>
+		<dd>情報技術概論，アルゴリズム基礎，プログラミング演習Ⅰ・Ⅱ</dd>
+		<dd>サマーセミナー, 「3Dモデリング&3Dプリンタ講座」, 2019年8月5日</dd>
+	</dl>
+	<li><dt>2020年度（明治大学FMS）</dt></li>
+	<dd>情報技術概論，アルゴリズム基礎，プログラミング演習Ⅰ・Ⅱ</dd>
+	<dd>サマーセミナー, 「3Dモデリング&3Dプリンタ講座」, 2020年8月19日．</dd>
+</dl>
+</dl>
+</ul>
+
+<h3>所属学会</h3>
+<ul>
+	<li>情報処理学会 ヒューマンコンピュータインタラクション研究会（HCI研究会） 正会員</li>
+	<li>ACM SIGCHI 正会員</li>
+	<li>芸術科学会 正会員</li>
+</ul>
+
+<h3>メディア掲載</h3>
+<ol>
+	<li>日本物流新聞（記事掲載）, 「3Dプリンタで変わるデザイン，フサフサの『毛』を造形」, 2018年2月10日．</li>
+	<li>明治大学(プレスリリース), <a href="http://www.meiji.ac.jp/koho/press/2017/6t5h7p00000pwmqe.html" target="_blank">「3Dプリンタの新たな造形方法を開発 ～高密度な「毛」を3Dプリント～」</a>, 2017年12月5日．</li>
+	<ul>ニュースサイト：<a href="https://fabcross.jp/news/2017/20171206_meiji_new3dprintingtechnique.html" target="_blank">fabcross</a>，
+		<a href="https://news.mynavi.jp/article/20171205-552115/" target="_blank">マイナビニュース</a>，
+		<a href="http://idarts.co.jp/3dp/meijiuniv-3d-rinting-release/" target="_blank">3DP id.arts</a>
+	</ul>
+	<li>ズームイン!！サタデー, フューチャリスタ, 宮下芳明, 2017年1月28日. (僕の研究も紹介して頂きました)</li>
+	<li>WBS, トレンドたまご, <a href="http://www.tv-tokyo.co.jp/mv/wbs/trend_tamago/post_120311/" target="_blank">「質感制御のための造形手法」</a>, 2016年10月24日．</li>
+	<li>明治大学(プレスリリース), <a href="https://www.meiji.ac.jp/koho/press/2016/6t5h7p00000m3slr.html" target="_blank">「3Dプリンタの新たな造形方法を開発 ～滑らかな手触りを3Dプリント～」</a>, 2016年10月18日．</li>
+	<ul>ニュースサイト：<a href="http://www.3ders.org/articles/20171221-japanese-engineers-create-tactile-3d-printed-surface-patterns-using-clever-technique.html" target="_blank">www.3Ders.org</a></ul>
+	<li>日経産業新聞（記事掲載）, 「端末 たたいて操作 明大、ソフト開発 部位認識、ボタン代替」, 2014年10月17日. </li>
+</ol>
+
+<h3>その他</h3>
+<ol>
+	<li><a href="https://qiita.com/HarukiTakahashi/items/6c4fba65e3a2cd38e66b" target="_blank">vvvvと私の博士課程</a>, vvvv Advent Calendar 2017, 2017年12月20日．</li>
+	<li><a href="http://peatix.com/event/270586" target="_blank">第22回 vvvv オフ会（vvvv to 3D printer）</a> 主催, 2017年6月17日．</li>
+	<li><a href="https://qiita.com/HarukiTakahashi/items/e79a390b4071fe7a74a1" target="_blank">vvvvで3Dプリンタを動かす</a>, vvvv Advent Calendar 2015, 2015年12月21日．</li>
+	<li><a href="https://qiita.com/HarukiTakahashi/items/dec299827a81f2d2f3c7" target="_blank">大学でvvvv勉強会を開催したお話</a>, vvvv Advent Calendar 2015, 2015年12月17日．</li>
+</ol>
+
+</div>
+
+</div>
+
+
+<center>
 	© Haruki Takahashi
 </center>
 
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>

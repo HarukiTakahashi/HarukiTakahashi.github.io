@@ -1,0 +1,98 @@
+<html>
+<head>
+  <title>Haruki Takahashi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="google-site-verification" content="HFd6hUd_bJbHkI0bAemX-VUL9YKfbYc8IV8oMtWJeD4" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <style type="text/css">
+  body {
+    padding-top: 80px;
+  }
+
+  .img-responsive-overwrite {
+    margin: 0 auto;
+  }
+
+  .panelHeader {
+    color: rgb(33, 125, 187);
+    ;
+  }
+  .row-eq-height {
+  display: flex;
+  flex-wrap: wrap;
+}
+  </style>
+  <script type="text/javascript">
+  $(function(){
+    $('a[href^=#]').click(function(){
+      var speed = 500;
+      var href= $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      var position = target.offset().top-100;
+      $("html, body").animate({scrollTop:position}, speed, "swing");
+      return false;
+    });
+  });
+  </script>
+
+</head>
+<body>
+  <header>
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div style="padding-left: 30px;" class="navbar-header">
+          <a href="https://haruki.xyz/" class="navbar-brand">Haruki Takahashi</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- container> ======================================================== <!-->
+
+
+  <div class="container">
+    <div>
+      <h1 id="printed_fabric">Programmable Filament</h1>
+      <p>Printed Filaments for Multi-material 3D Printing</p>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h3>Abstract</h3>
+        From full-color objects to functional capacitive artifacts, 3D printing multi-materials became essential to broaden the application areas of digital fabrication. We present Programmable Filament, a novel technique that enables multi-material printing using a commodity FDM 3D printer, requiring no hardware upgrades. Our technique builds upon an existing printing technique in which multiple filament segments are printed and spliced into a single threaded filament. We propose an end-toend pipeline for 3D printing an object in multi-materials, with an introduction of the design systems for end-users. Optimized for low-cost, single-nozzle FDM 3D printers, the system is built upon our computational analysis and experiments to enhance its validity over various printers and materials to design and produce a programmable filament. Finally, we discuss applicationexamples and speculate the future with its potential, such as custom filament manufacturing on-demand.
+        </div>
+        <br>
+        <div class="col-sm-12">
+          <h3>Video</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/pNeKJnb--Dw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <h3>System</h3>
+          Grasshopper script.<br>
+          <a href="https://haruki.xyz/file/FilamentDesignSystem_v1.gh" download><button type="submit" class="btn btn-primary">Download</button></a>
+          <br><br>
+          <b>Note</b> : Please input lengths and material numbers into the input boxes. The system requires external libraries such as Human UI.
+          <br>
+          <br>
+          <br>
+
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <center>
+      © Haruki Takahashi
+  </center>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

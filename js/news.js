@@ -16,7 +16,7 @@
 
       var res = "";
       res+="<table class=\"table table-hover table-condensed\">";
-      var lines = loadText.split("\r\n");
+      var lines = loadText.split(/\r\n|\n/);
 
       for (let i = 0; i < lines.length; i++){
     		if (lines[i] != ""){			// 空行を除外（特にファイル末尾）

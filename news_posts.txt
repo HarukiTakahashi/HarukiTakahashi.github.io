@@ -1,4 +1,4 @@
-o,,2022/11,I attended <a href="https://uist.acm.org/uist2022/" target="_blank">UIST2022</a> and demonstrated our work "designing a hairy haptic display!"
+o,,2022/11,test_I attended <a href="https://uist.acm.org/uist2022/" target="_blank">UIST2022</a> and demonstrated our work "designing a hairy haptic display!"
 o,JP,2022/03,<a href ="report2021.html" target="_blank">2021年度をまとめることを忘れそうでした．</a>2022年度もがんばります．
 o,JP,2022/03,<a href ="https://www.interaction-ipsj.org/2022/" target="_blank">インタラクション2022</a>のWeb委員長を担当しました．
 o,,2022/02,Our LBW work was accepted at <a href="https://chi2022.acm.org/" target="_blank">CHI2022</a>! I collaborated with Qian Lu and HCIED Lab members (at Texas A&M University).

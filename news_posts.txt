@@ -1,36 +1,36 @@
 o,,2022/11,I attended <a href="https://uist.acm.org/uist2022/" target="_blank">UIST2022</a> and demonstrated our work "designing a hairy haptic display!"
-o,JP,2022/03,<a href ="report2021.html" target="_blank">2021å¹´åº¦ã‚’ã¾ã¨ã‚ã‚‹ã“ã¨ã‚’å¿˜ã‚Œãã†ã§ã—ãŸï¼</a>2022å¹´åº¦ã‚‚ãŒã‚“ã°ã‚Šã¾ã™ï¼
-o,JP,2022/03,<a href ="https://www.interaction-ipsj.org/2022/" target="_blank">ã‚¤ãƒ³ã‚¿ãƒ©ã‚¯ã‚·ãƒ§ãƒ³2022</a>ã®Webå§”å“¡é•·ã‚’æ‹…å½“ã—ã¾ã—ãŸï¼
+o,JP,2022/03,<a href ="report2021.html" target="_blank">2021”N“x‚ğ‚Ü‚Æ‚ß‚é‚±‚Æ‚ğ–Y‚ê‚»‚¤‚Å‚µ‚½D</a>2022”N“x‚à‚ª‚ñ‚Î‚è‚Ü‚·D
+o,JP,2022/03,<a href ="https://www.interaction-ipsj.org/2022/" target="_blank">ƒCƒ“ƒ^ƒ‰ƒNƒVƒ‡ƒ“2022</a>‚ÌWebˆÏˆõ’·‚ğ’S“–‚µ‚Ü‚µ‚½D
 o,,2022/02,Our LBW work was accepted at <a href="https://chi2022.acm.org/" target="_blank">CHI2022</a>! I collaborated with Qian Lu and HCIED Lab members (at Texas A&M University).
 o,,2022/01,Happy new year!!!
-o,,2021/12,<a href ="https://www.wiss.org/WISS2021/" target="_blank">WISS2021</a>ã«å‚åŠ ã—ã¾ã—ãŸï¼ã€Œ3Dãƒ—ãƒªãƒ³ãƒˆã—ãŸæ¯›ã‚’ç”¨ã„ãŸè§¦è¦šãƒ‡ã‚£ã‚¹ãƒ—ãƒ¬ã‚¤ã®ææ¡ˆã€ã¨é¡Œã—ã¦ãƒ‡ãƒ¢ç™ºè¡¨ã‚’è¡Œã„ï¼Œå¯¾è©±ç™ºè¡¨è³ï¼ˆPCå§”å“¡æ¨è–¦ï¼‰ã‚’é ‚ãã¾ã—ãŸï¼ã‚ã‚ŠãŒã¨ã†ã”ã–ã„ã¾ã™ï¼
+o,,2021/12,<a href ="https://www.wiss.org/WISS2021/" target="_blank">WISS2021</a>‚ÉQ‰Á‚µ‚Ü‚µ‚½Du3DƒvƒŠƒ“ƒg‚µ‚½–Ñ‚ğ—p‚¢‚½GŠoƒfƒBƒXƒvƒŒƒC‚Ì’ñˆÄv‚Æ‘è‚µ‚Äƒfƒ‚”­•\‚ğs‚¢C‘Î˜b”­•\ÜiPCˆÏˆõ„‘Ej‚ğ’¸‚«‚Ü‚µ‚½D‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚·D
 o,,2021/05,Himani presented our paper "EscapeLoom" at CHI2021.
-c,JP,2021/03,<a href ="report2020.html" target="_blank">2020å¹´åº¦ã‚’ã¾ã¨ã‚ãŸæ°—ã«ãªã£ã¦ã„ã¾ã™ï¼
+c,JP,2021/03,<a href ="report2020.html" target="_blank">2020”N“x‚ğ‚Ü‚Æ‚ß‚½‹C‚É‚È‚Á‚Ä‚¢‚Ü‚·D
 c,,2021/01,Our paper was accepted at <a href="https://chi2021.acm.org/" target="_blank">CHI2021</a>! I collaborated with Himani Deshpande and Jeeeun Kim (HCIED Lab at Texas A&M University).
 c,,2021/01,Happy new year!!!
 c,,2020/09,Our paper was accepted at <a href="https://uist.acm.org/uist2020/" target="_blank">UIST2020</a> and selected to receive a Honorable Mention Award!!
-c,JP,2020/03,<a href ="report2019.html" target="_blank">2019å¹´åº¦ã‚’ãã‚Œãªã‚Šã«ã¾ã¨ã‚ã¾ã—ãŸï¼</a>2020å¹´åº¦ã‚‚ãŒã‚“ã°ã‚Šã¾ã™ï¼
-c,JP,2020/01,ã¯ã“ã ã¦æœªæ¥å¤§å­¦ã§3Dãƒ—ãƒªãƒ³ã‚¿ã«é–¢ã™ã‚‹è¬›æ¼”ã‚’ã—ã¾ã—ãŸï¼
+c,JP,2020/03,<a href ="report2019.html" target="_blank">2019”N“x‚ğ‚»‚ê‚È‚è‚É‚Ü‚Æ‚ß‚Ü‚µ‚½D</a>2020”N“x‚à‚ª‚ñ‚Î‚è‚Ü‚·D
+c,JP,2020/01,‚Í‚±‚¾‚Ä–¢—ˆ‘åŠw‚Å3DƒvƒŠƒ“ƒ^‚ÉŠÖ‚·‚éu‰‰‚ğ‚µ‚Ü‚µ‚½D
 c,,2020/01,Happy New Year!
 c,,2019/10,I have presented our work "3D Printed Fabric" at <a href="http://uist.acm.org/uist2019/">UIST2019</a>!
-c,JP,2019/07,èŠ¸è¡“ç§‘å­¦ä¼šè«–æ–‡èªŒã«<a href="https://www.art-science.org/journal/v18n2/index.html" target="_blank">ãŸã‚“ã½ã½åˆ¶ä½œã«é–¢ã™ã‚‹è«–æ–‡</a> ãŒæ²è¼‰ã•ã‚Œã¾ã—ãŸï¼
+c,JP,2019/07,Œ|p‰ÈŠw‰ï˜_•¶‚É<a href="https://www.art-science.org/journal/v18n2/index.html" target="_blank">‚½‚ñ‚Û‚Û§ì‚ÉŠÖ‚·‚é˜_•¶</a> ‚ªŒfÚ‚³‚ê‚Ü‚µ‚½D
 c,,2019/05,I have presented our work "3D pen + 3D printer" at <a href="https://chi2019.acm.org/">CHI2019</a> on behalf of the collaboration with Jeeeun!
-c,JP,2019/03,<a href ="report2018.html" target="_blank">2018å¹´åº¦ã‚’ã“ã£ãã‚Šã¾ã¨ã‚ã¾ã—ãŸï¼</a>2019å¹´åº¦ã‚‚ãŒã‚“ã°ã‚Šã¾ã™ï¼
-c,JP,2019/03,<a href ="http://www.interaction-ipsj.org/2019/" target="_blank">ã‚¤ãƒ³ã‚¿ãƒ©ã‚¯ã‚·ãƒ§ãƒ³2019</a>ã«ã¦ãƒ‡ãƒ¢ç™ºè¡¨ã‚’è¡Œã„ã¾ã—ãŸï¼
+c,JP,2019/03,<a href ="report2018.html" target="_blank">2018”N“x‚ğ‚±‚Á‚»‚è‚Ü‚Æ‚ß‚Ü‚µ‚½D</a>2019”N“x‚à‚ª‚ñ‚Î‚è‚Ü‚·D
+c,JP,2019/03,<a href ="http://www.interaction-ipsj.org/2019/" target="_blank">ƒCƒ“ƒ^ƒ‰ƒNƒVƒ‡ƒ“2019</a>‚É‚Äƒfƒ‚”­•\‚ğs‚¢‚Ü‚µ‚½D
 c,,2019/01,I collaborated with designers at Nissan Motor Co., Ltd. and <a href="https://www.digitalartisan.co.jp/" target="_blank">Digital Artisan</a> to create an artwork: 1kg dandelion cotton (<a href="https://prtimes.jp/main/html/rd/p/000000001.000040823.html?fbclid=IwAR0W7o-7_8wZ9vtpZL9zyDy3GqZuOwB27SRQxmSQWMVxi28o1helGSPfL7c" target="_blank">Press release in JP</a>).
 c,,2019/01,Happy New Year!
 c,,2018/12,Our paper was conditionally accepted at <a href="https://chi2019ss.acm.org/" target="_blank">CHI2019</a>.
-c,JP,2018/09,<a href ="https://www.wiss.org/WISS2018/" target="_blank">WISS2018</a>ã«å‚åŠ ã—ã¾ã™ï¼
+c,JP,2018/09,<a href ="https://www.wiss.org/WISS2018/" target="_blank">WISS2018</a>‚ÉQ‰Á‚µ‚Ü‚·D
 c,,2018/06,Jeeeun Kim presented our work <a href ="https://dl.acm.org/citation.cfm?id=3213518">Compositional 3D Printing</a> at <a href="https://scf.acm.org/2018">SCF2018</a>
 c,,2018/04,I arrived at my new post: I am a Research associate, Meiji University.
 c,,2018/03,I recieved Ph.D. from Meiji University. I am grateful to all of the people who help me. Thank you very much!
-c,JP,2018/03,<a href=â€https://www.interaction-ipsj.org/2018/â€ target="_blank">ã‚¤ãƒ³ã‚¿ãƒ©ã‚¯ã‚·ãƒ§ãƒ³2018</a>ã§ç™»å£‡ç™ºè¡¨ã—ã¾ã—ãŸï¼
+c,JP,2018/03,<a href=hhttps://www.interaction-ipsj.org/2018/h target="_blank">ƒCƒ“ƒ^ƒ‰ƒNƒVƒ‡ƒ“2018</a>‚Å“o’d”­•\‚µ‚Ü‚µ‚½D
 c,,2018/01,Happy New Year!
-c,JP,2017/12,WISS2017ã§å¯¾è©±ç™ºè¡¨è³ã‚’å—è³ã—ã¾ã—ãŸï¼ã‚ã‚ŠãŒã¨ã†ã”ã–ã„ã¾ã™ï¼
-c,JP,2017/12,ãƒ’ãƒ¥ãƒ¼ãƒãƒ³ã‚¤ãƒ³ã‚¿ãƒ•ã‚§ãƒ¼ã‚¹å­¦ä¼šè«–æ–‡èªŒã«æŠ•ç¨¿ã—ãŸè«–æ–‡ãŒæ¡éŒ²ã¨ãªã‚Šã¾ã—ãŸï¼æ²è¼‰ã¯2018å¹´2æœˆã®äºˆå®šã§ã™ï¼
-c,JP,2017/11,æƒ…å ±å‡¦ç†å­¦ä¼šè«–æ–‡èªŒã«æŠ•ç¨¿ã—ãŸè«–æ–‡ãŒæ¡éŒ²ã¨ãªã‚Šã¾ã—ãŸï¼æ²è¼‰ã¯2018å¹´2æœˆã®äºˆå®šã§ã™ï¼
-c,JP,2017/11,èŠ¸è¡“ç§‘å­¦ä¼šè«–æ–‡è³ã‚’å—è³ã—ã¾ã—ãŸï¼ã‚ã‚ŠãŒã¨ã†ã”ã–ã„ã¾ã™ï¼
-c,JP,2017/09,ç¬¬22å›VRå­¦ä¼šå¤§ä¼š <a href="http://conference.vrsj.org/ac2017/" target="_blank">VRSJ</a>ï¼ˆå¾³å³¶å¤§å­¦ï¼‰ã«ã¦ï¼ŒCHI2017ã®è«–æ–‡ã«ã¤ã„ã¦è¬›æ¼”ã‚’ã—ã¾ã—ãŸï¼
+c,JP,2017/12,WISS2017‚Å‘Î˜b”­•\Ü‚ğóÜ‚µ‚Ü‚µ‚½D‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚·D
+c,JP,2017/12,ƒqƒ…[ƒ}ƒ“ƒCƒ“ƒ^ƒtƒF[ƒXŠw‰ï˜_•¶‚É“Še‚µ‚½˜_•¶‚ªÌ˜^‚Æ‚È‚è‚Ü‚µ‚½DŒfÚ‚Í2018”N2Œ‚Ì—\’è‚Å‚·D
+c,JP,2017/11,î•ñˆ—Šw‰ï˜_•¶‚É“Še‚µ‚½˜_•¶‚ªÌ˜^‚Æ‚È‚è‚Ü‚µ‚½DŒfÚ‚Í2018”N2Œ‚Ì—\’è‚Å‚·D
+c,JP,2017/11,Œ|p‰ÈŠw‰ï˜_•¶Ü‚ğóÜ‚µ‚Ü‚µ‚½D‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚·D
+c,JP,2017/09,‘æ22‰ñVRŠw‰ï‘å‰ï <a href="http://conference.vrsj.org/ac2017/" target="_blank">VRSJ</a>i“¿“‡‘åŠwj‚É‚ÄCCHI2017‚Ì˜_•¶‚É‚Â‚¢‚Äu‰‰‚ğ‚µ‚Ü‚µ‚½D
 c,,2017/05,I had attended <a href="https://chi2017.acm.org/" target="_blank">CHI2017</a> and presented our work (Oral and alt.chi).
 c,,2017/04,I transferrd to Graduate School of Advanced Mathematical Sciences (Meiji University), and I was installed as an assistant at School of Interdisciplinary Mathematical Sciences (Meiji University).
 c,,2017/02,Our alt.chi paper was accepted at <a href="https://chi2017.acm.org/" target="_blank">CHI2017</a>. Thank you for discussing!

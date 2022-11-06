@@ -3,34 +3,34 @@ o,JP,2022/03,<a href ="report2021.html" target="_blank">2021年度をまとめ�
 o,JP,2022/03,<a href ="https://www.interaction-ipsj.org/2022/" target="_blank">インタラクション2022</a>のWeb委員長を担当しました．
 o,,2022/02,Our LBW work was accepted at <a href="https://chi2022.acm.org/" target="_blank">CHI2022</a>! I collaborated with Qian Lu and HCIED Lab members (at Texas A&M University).
 o,,2022/01,Happy new year!!!
-o,,2021/12,<a href ="https://www.wiss.org/WISS2021/" target="_blank">WISS2021</a>に参加しました．「3Dプリントした毛を用いた触覚ディスプレイの提案」と題してデモ発表を行い，対話発表賞（PC委員推薦）を頂きました．ありがとうございます．
+o,,2021/12,<a href ="https://www.wiss.org/WISS2021/" target="_blank">WISS2021</a>�ɎQ�����܂����D�u3D�v�����g�����т��p�����G�o�f�B�X�v���C�̒��āv�Ƒ肵�ăf�����\���s���C�Θb���\�܁iPC�ψ����E�j�𒸂��܂����D���肪�Ƃ��������܂��D
 o,,2021/05,Himani presented our paper "EscapeLoom" at CHI2021.
-c,JP,2021/03,<a href ="report2020.html" target="_blank">2020年度をまとめた気になっています．
+c,JP,2021/03,<a href ="report2020.html" target="_blank">2020�N�x���܂Ƃ߂��C�ɂȂ��Ă��܂��D
 c,,2021/01,Our paper was accepted at <a href="https://chi2021.acm.org/" target="_blank">CHI2021</a>! I collaborated with Himani Deshpande and Jeeeun Kim (HCIED Lab at Texas A&M University).
 c,,2021/01,Happy new year!!!
 c,,2020/09,Our paper was accepted at <a href="https://uist.acm.org/uist2020/" target="_blank">UIST2020</a> and selected to receive a Honorable Mention Award!!
-c,JP,2020/03,<a href ="report2019.html" target="_blank">2019年度をそれなりにまとめました．</a>2020年度もがんばります．
-c,JP,2020/01,はこだて未来大学で3Dプリンタに関する講演をしました．
+c,JP,2020/03,<a href ="report2019.html" target="_blank">2019�N�x�������Ȃ��ɂ܂Ƃ߂܂����D</a>2020�N�x�������΂��܂��D
+c,JP,2020/01,�͂����Ė������w��3D�v�����^�Ɋւ����u�������܂����D
 c,,2020/01,Happy New Year!
 c,,2019/10,I have presented our work "3D Printed Fabric" at <a href="http://uist.acm.org/uist2019/">UIST2019</a>!
-c,JP,2019/07,芸術科学会論文誌に<a href="https://www.art-science.org/journal/v18n2/index.html" target="_blank">たんぽぽ制作に関する論文</a> が掲載されました．
+c,JP,2019/07,�|�p�Ȋw���_������<a href="https://www.art-science.org/journal/v18n2/index.html" target="_blank">�����ۂې����Ɋւ����_��</a> ���f�ڂ����܂����D
 c,,2019/05,I have presented our work "3D pen + 3D printer" at <a href="https://chi2019.acm.org/">CHI2019</a> on behalf of the collaboration with Jeeeun!
-c,JP,2019/03,<a href ="report2018.html" target="_blank">2018年度をこっそりまとめました．</a>2019年度もがんばります．
-c,JP,2019/03,<a href ="http://www.interaction-ipsj.org/2019/" target="_blank">インタラクション2019</a>にてデモ発表を行いました．
+c,JP,2019/03,<a href ="report2018.html" target="_blank">2018�N�x�����������܂Ƃ߂܂����D</a>2019�N�x�������΂��܂��D
+c,JP,2019/03,<a href ="http://www.interaction-ipsj.org/2019/" target="_blank">�C���^���N�V����2019</a>�ɂăf�����\���s���܂����D
 c,,2019/01,I collaborated with designers at Nissan Motor Co., Ltd. and <a href="https://www.digitalartisan.co.jp/" target="_blank">Digital Artisan</a> to create an artwork: 1kg dandelion cotton (<a href="https://prtimes.jp/main/html/rd/p/000000001.000040823.html?fbclid=IwAR0W7o-7_8wZ9vtpZL9zyDy3GqZuOwB27SRQxmSQWMVxi28o1helGSPfL7c" target="_blank">Press release in JP</a>).
 c,,2019/01,Happy New Year!
 c,,2018/12,Our paper was conditionally accepted at <a href="https://chi2019ss.acm.org/" target="_blank">CHI2019</a>.
-c,JP,2018/09,<a href ="https://www.wiss.org/WISS2018/" target="_blank">WISS2018</a>に参加します．
+c,JP,2018/09,<a href ="https://www.wiss.org/WISS2018/" target="_blank">WISS2018</a>�ɎQ�����܂��D
 c,,2018/06,Jeeeun Kim presented our work <a href ="https://dl.acm.org/citation.cfm?id=3213518">Compositional 3D Printing</a> at <a href="https://scf.acm.org/2018">SCF2018</a>
 c,,2018/04,I arrived at my new post: I am a Research associate, Meiji University.
 c,,2018/03,I recieved Ph.D. from Meiji University. I am grateful to all of the people who help me. Thank you very much!
-c,JP,2018/03,<a href=”https://www.interaction-ipsj.org/2018/” target="_blank">インタラクション2018</a>で登壇発表しました．
+c,JP,2018/03,<a href=�hhttps://www.interaction-ipsj.org/2018/�h target="_blank">�C���^���N�V����2018</a>�œo�d���\���܂����D
 c,,2018/01,Happy New Year!
-c,JP,2017/12,WISS2017で対話発表賞を受賞しました．ありがとうございます．
-c,JP,2017/12,ヒューマンインタフェース学会論文誌に投稿した論文が採録となりました．掲載は2018年2月の予定です．
-c,JP,2017/11,情報処理学会論文誌に投稿した論文が採録となりました．掲載は2018年2月の予定です．
-c,JP,2017/11,芸術科学会論文賞を受賞しました．ありがとうございます．
-c,JP,2017/09,第22回VR学会大会 <a href="http://conference.vrsj.org/ac2017/" target="_blank">VRSJ</a>（徳島大学）にて，CHI2017の論文について講演をしました．
+c,JP,2017/12,WISS2017�őΘb���\�܂����܂��܂����D���肪�Ƃ��������܂��D
+c,JP,2017/12,�q���[�}���C���^�t�F�[�X�w���_�����ɓ��e�����_�����̘^�ƂȂ��܂����D�f�ڂ�2018�N2���̗\���ł��D
+c,JP,2017/11,���񏈗��w���_�����ɓ��e�����_�����̘^�ƂȂ��܂����D�f�ڂ�2018�N2���̗\���ł��D
+c,JP,2017/11,�|�p�Ȋw���_���܂����܂��܂����D���肪�Ƃ��������܂��D
+c,JP,2017/09,��22��VR�w������ <a href="http://conference.vrsj.org/ac2017/" target="_blank">VRSJ</a>�i�������w�j�ɂāCCHI2017�̘_���ɂ��ču�������܂����D
 c,,2017/05,I had attended <a href="https://chi2017.acm.org/" target="_blank">CHI2017</a> and presented our work (Oral and alt.chi).
 c,,2017/04,I transferrd to Graduate School of Advanced Mathematical Sciences (Meiji University), and I was installed as an assistant at School of Interdisciplinary Mathematical Sciences (Meiji University).
 c,,2017/02,Our alt.chi paper was accepted at <a href="https://chi2017.acm.org/" target="_blank">CHI2017</a>. Thank you for discussing!

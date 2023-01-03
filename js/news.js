@@ -1,6 +1,5 @@
 (function(){
 
-  //alert("ok");
   const outputElement = document.getElementById('output_news_data');
 
     outputElement.innerHTML = "started";
@@ -19,7 +18,7 @@
       var lines = loadText.split(/\r\n|\n/);
 
       for (let i = 0; i < lines.length; i++){
-    		if (lines[i] != ""){			// 空行を除外（特にファイル末尾）
+    		if (lines[i] != ""){
           var tmp = lines[i].split(',');
           if(tmp[0]=="o"){
             res += "<tr class=\"\" style=\"display: table-row;\">";

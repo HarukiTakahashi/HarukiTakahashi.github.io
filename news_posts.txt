@@ -1,10 +1,11 @@
+o,,2023/01,Happy new year!!!
 o,,2022/11,I attended <a href="https://uist.acm.org/uist2022/" target="_blank">UIST2022</a> and demonstrated our work "designing a hairy haptic display!"
 o,JP,2022/03,<a href ="report2021.html" target="_blank">2021年度をまとめることを忘れそうでした．</a>2022年度もがんばります．
 o,JP,2022/03,<a href ="https://www.interaction-ipsj.org/2022/" target="_blank">インタラクション2022</a>のWeb委員長を担当しました．
 o,,2022/02,Our LBW work was accepted at <a href="https://chi2022.acm.org/" target="_blank">CHI2022</a>! I collaborated with Qian Lu and HCIED Lab members (at Texas A&M University).
 o,,2022/01,Happy new year!!!
-o,,2021/12,<a href ="https://www.wiss.org/WISS2021/" target="_blank">WISS2021</a>に参加しました．「3Dプリントした毛を用いた触覚ディスプレイの提案」と題してデモ発表を行い，対話発表賞（PC委員推薦）を頂きました．ありがとうございます．
-o,,2021/05,Himani presented our paper "EscapeLoom" at CHI2021.
+c,,2021/12,<a href ="https://www.wiss.org/WISS2021/" target="_blank">WISS2021</a>に参加しました．「3Dプリントした毛を用いた触覚ディスプレイの提案」と題してデモ発表を行い，対話発表賞（PC委員推薦）を頂きました．ありがとうございます．
+c,,2021/05,Himani presented our paper "EscapeLoom" at CHI2021.
 c,JP,2021/03,<a href ="report2020.html" target="_blank">2020年度をまとめた気になっています．</a>2021年度もがんばります．
 c,,2021/01,Our paper was accepted at <a href="https://chi2021.acm.org/" target="_blank">CHI2021</a>! I collaborated with Himani Deshpande and Jeeeun Kim (HCIED Lab at Texas A&M University).
 c,,2021/01,Happy new year!!!

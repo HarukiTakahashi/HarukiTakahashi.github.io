@@ -1,3 +1,4 @@
+o,JP,2023/4,立命館大学情報理工学部に講師として着任いたしました。引き続き、よろしくお願いいたします！
 o,JP,2023/3,<a href ="https://www.interaction-ipsj.org/2023/" target="_blank">インタラクション2023</a>に参加しました．「導電性樹脂・磁鉄樹脂を用いた毛構造の3Dプリントと応用」と題したデモ発表（共著）を行い，インタラクティブ発表賞（PC推薦）を頂きました．ありがとうございます．
 o,,2023/01,Happy new year!!!
 o,,2022/11,I attended <a href="https://uist.acm.org/uist2022/" target="_blank">UIST2022</a> and demonstrated our work "designing a hairy haptic display!"

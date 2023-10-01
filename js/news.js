@@ -3,7 +3,7 @@
   const outputElement = document.getElementById('output_news_data');
 
     outputElement.innerHTML = "started";
-    getCsvData( '../news_posts.txt' );
+    getCsvData( '../news_posts.csv' );
 
   function getCsvData( dataPath )
   {

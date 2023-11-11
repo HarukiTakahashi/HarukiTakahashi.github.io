@@ -19,6 +19,7 @@
 
       for (let i = 0; i < lines.length; i++){
     		if (lines[i] != ""){
+          lines[i] = lines[i].replace("\\,","#%&");
           var tmp = lines[i].split(',');
           if(tmp[0]=="o"){
             res += "<tr class=\"\" style=\"display: table-row;\">";
@@ -31,7 +32,7 @@
           }else{
               res += "<td></td>";
           }
-          res += "<td>"+tmp[3]+"</td>";
+          res += "<td>"+tmp[3].replace("#%&",",");+"</td>";
 
           res += "</tr>"
     		}

@@ -11,6 +11,7 @@ class Field{
     this.array_b = [];
     this.putflag = true;
     this.resizeflag = false;
+    this.grid_visibility = true;
 
     this.reset();
   }
@@ -132,6 +133,7 @@ class Field{
       }
     }
 
+    if(this.grid_visibility){
     let grid_line_color = this.rgb2hex([255,255,0]);
 
     for(let i = 0; i <= this.size; i++){
@@ -142,5 +144,6 @@ class Field{
       let y = i * this.grid_size_h;
       this.util.drawLine(0, y, w, y, grid_line_color, 2);
     }
+  }
   }
 }

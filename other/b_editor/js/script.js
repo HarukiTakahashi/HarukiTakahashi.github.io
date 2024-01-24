@@ -51,6 +51,9 @@
     });
     document.getElementById('all_button').addEventListener('click', () => {
       main_field.reset();
+    });
+    document.getElementById('show_grid').addEventListener('change', () => {
+      main_field.grid_visibility = !main_field.grid_visibility;
   });
     
     window.addEventListener('keydown', (event) => {

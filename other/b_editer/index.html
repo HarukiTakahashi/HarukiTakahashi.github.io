@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 文字コードを指定 -->
+        <meta charset="UTF-8">
+        <!-- スタイルシートの読み込み -->
+        <link rel="stylesheet" href="./css/style.css">
+        <!-- JavaScript ファイルの読み込み -->
+        <script src="./js/script.js"></script>
+        <script src="./js/field.js"></script>
+        <script src="./js/canvas2d.js"></script>
+    </head>
+    <body>
+        <h1>B pattern editor</h1>
+        <br>
+        <center>
+            Click to make a cell blue 
+        </center>
+        <!-- ID 属性を持つ canvas エレメント -->
+        <canvas id="main_canvas"></canvas>
+        <center>
+            <br>
+            <label >Grid Num</label>
+            <input value ="20" type="number" id="grid_size_num" name="name" min ="1">
+            <br>
+            <br>
+            <label >R & G range</label>
+            <input value ="0" type="number" id="rg_min" name="name" min ="0" max ="255">
+            to
+            <input value ="255" type="number" id="rg_max" name="name" min ="0" max ="255">
+            <br>
+            <button id="random_button" name="name1">Randomize</button> <br>
+            <br>
+            <button id="rg_button" name="name2">Reset R & G</button>
+            <button id="all_button" name="name2">Reset All</button>
+            <br>
+            <br>
+            
+        Press Enter to reset the field
+      </center>
+    </body>
+</html>

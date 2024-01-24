@@ -46,6 +46,10 @@ class Field{
     }
   }
 
+  randomize(){
+    console.log("randomize!");
+  }
+
   save(){
     let field_data_json = JSON.stringify(this.array);
     let turn_data_json = JSON.stringify(this.turn);

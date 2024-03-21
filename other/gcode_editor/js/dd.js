@@ -34,7 +34,6 @@
         y = event.pageY - this.offsetTop;
 
         // エディタの左部のみで有効
-        console.log(x,y);
         if( x > 40){
             return;
         }
@@ -61,6 +60,8 @@
         e.preventDefault();
 
         //マウスが動いた場所に要素を動かす
+        console.log(x,y);
+
         drag.style.top = event.pageY - y + "px";
         drag.style.left = event.pageX - x + "px";
 

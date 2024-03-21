@@ -15,6 +15,15 @@
         draw_gcode_in_editor();
     });
 
+    editor.session.selection.on('changeCursor', function(e){
+        console.log(e);
+
+        var currline = editor.getSelectionRange().start.row;
+        var wholelinetxt = editor.session.getLine(currline);
+        console.log(wholelinetxt)
+
+    });
+
     // ページの読み込みを待つ
     window.addEventListener('DOMContentLoaded', () => {
 
@@ -85,9 +94,10 @@
             gcode.push(g);   
         }
 
-        for (let i = 0; i < scene.children.length; i++) {
+        for (let i = scene.children.length-1; i > 1; i--) {
             console.log(scene.children[i]);
-            if(scene.children[i]["type"] == 'Line'){
+            if(scene.children[i]["type"] == 'Line2'){
+
                 scene.remove(scene.children[i]);
             }
         }
@@ -154,7 +164,7 @@
       }
 
       function localstorage_save(){
-        if(gcode.length < 1000){
+        if(gcode.length < 20000){
             let edi_g = editor.getValue();
             let gcode_data = JSON.stringify(edi_g);
             localStorage.setItem('gcode_data', gcode_data);
@@ -170,16 +180,24 @@
         }
         console.log("ready" + gcode.length);
 
-        const points = [];
-        x = 0;
-        y = 0;
-        z = 0;
-        px = 0;
-        py = 0;
-        pz = 0;
-        mode = 0; // 0: absolute 1: relative
-        points.push(new THREE.Vector3(x, y, z));
+        const material = new THREE.LineMaterial( {
+            color: 0xffffff,
+            linewidth: 0.003
+        } );
+        const dmaterial = new THREE.LineMaterial( {
+            color: 0x00aaff,
+            linewidth: 0.001
+        } );
 
+        let points = [];
+        x = 0; y = 0; z = 0;
+        px = 0; py = 0; pz = 0;
+        mode = 0; // 0: absolute 1: relative
+        extrude = 0;
+
+        points.push(z, y, x);
+
+        // main loop
         for(let i = 0; i < gcode.length; i++){
             let g = gcode[i];
 
@@ -209,22 +227,39 @@
                 } else {
                     y = py;
                 }
-                console.log(x,y,z)
-                points.push(new THREE.Vector3(z, y, x));
-                
+
+                points.push(z, y, x);
+
+                if(g.params['E'] != undefined) {
+                    const geo = new THREE.LineGeometry();
+                    geo.setPositions( points );
+                    
+                    let line = new THREE.Line2( geo, material );
+                    scene.add(line);
+                    points = [];
+                    points.push(z, y, x);
+
+                } else {
+                    const geo = new THREE.LineGeometry();
+                    geo.setPositions( points );
+                    
+                    let line = new THREE.Line2( geo, dmaterial );
+                    scene.add(line);
+                    points = [];
+                    points.push(z, y, x);
+                }
+            
+          
                 px = x;
                 py = y;
                 pz = z;
             }
+
+            //const geometry = new THREE.BufferGeometry().setFromPoints(points);
+            //const line = new THREE.Line(geometry, material);
+            //scene.add(line);
         }
 
-        const geometry = new THREE.BufferGeometry().setFromPoints(points);
-        const material = new THREE.LineBasicMaterial( {
-            color: 0xffffff,
-            linewidth: 5,
-        } );
-        const line = new THREE.Line(geometry, material);
-        scene.add(line);
 
     }
 
